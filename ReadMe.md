@@ -6,8 +6,8 @@ This repository contains scripts to fine-tune **Mistral-7B-Instruct-v0.3** using
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   git clone https://github.com/Krenar123/ft_llms_from_text_documents.git
+   cd ft_llms_from_text_documents
    ```
 
 2. **Install dependencies**:
