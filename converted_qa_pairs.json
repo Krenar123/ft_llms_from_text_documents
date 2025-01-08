@@ -1,0 +1,1444 @@
+{
+    "messages": [
+        [
+            {
+                "content": "What are the standards of student behaviour?",
+                "role": "user"
+            },
+            {
+                "content": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the standards of student behaviour for the school?",
+                "role": "user"
+            },
+            {
+                "content": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the standards of student behavior?",
+                "role": "user"
+            },
+            {
+                "content": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "II. Standards of student behaviour",
+                "role": "user"
+            },
+            {
+                "content": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "II. Standards of student behaviour - Article 2",
+                "role": "user"
+            },
+            {
+                "content": "(1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - II. Standards of student behaviour",
+                "role": "user"
+            },
+            {
+                "content": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - II. Standards of student behaviour - Article 2",
+                "role": "user"
+            },
+            {
+                "content": "(1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the rights and responsibilities of students?",
+                "role": "user"
+            },
+            {
+                "content": "(2) Students are members of society and the academic community with attendant rights and responsibilities.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the rules for students to follow?",
+                "role": "user"
+            },
+            {
+                "content": "(3) Students are expected to comply with the general law, University policies and campus regulations.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the consequences of not complying with University policies?",
+                "role": "user"
+            },
+            {
+                "content": "(4) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the three principles of Academic Integrity?",
+                "role": "user"
+            },
+            {
+                "content": "Article 3: (1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the principles of academic integrity?",
+                "role": "user"
+            },
+            {
+                "content": "Article 3: (1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the three principles of academic integrity?",
+                "role": "user"
+            },
+            {
+                "content": "Article 3: (1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "III. Principles of Academic Integrity",
+                "role": "user"
+            },
+            {
+                "content": "Article 3: (1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "III. Principles of Academic Integrity - Article 3",
+                "role": "user"
+            },
+            {
+                "content": "(1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - III. Principles of Academic Integrity",
+                "role": "user"
+            },
+            {
+                "content": "Article 3: (1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - III. Principles of Academic Integrity - Article 3",
+                "role": "user"
+            },
+            {
+                "content": "(1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the principle of honesty?",
+                "role": "user"
+            },
+            {
+                "content": "(2) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the published standards for this course?",
+                "role": "user"
+            },
+            {
+                "content": "(3) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the person who is being investigated?",
+                "role": "user"
+            },
+            {
+                "content": "Article 4: (1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the case?",
+                "role": "user"
+            },
+            {
+                "content": "Article 4: (1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the person who is being disciplined?",
+                "role": "user"
+            },
+            {
+                "content": "Article 4: (1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "IV. Identification of the case for disciplinary action",
+                "role": "user"
+            },
+            {
+                "content": "Article 4: (1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "IV. Identification of the case for disciplinary action - Article 4",
+                "role": "user"
+            },
+            {
+                "content": "(1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - IV. Identification of the case for disciplinary action",
+                "role": "user"
+            },
+            {
+                "content": "Article 4: (1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - IV. Identification of the case for disciplinary action - Article 4",
+                "role": "user"
+            },
+            {
+                "content": "(1) Anyone may report any alleged student misconduct. (2) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who can report alleged student misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "(2) Anyone may report any alleged student misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What might result in disciplinary action?",
+                "role": "user"
+            },
+            {
+                "content": "(3) Conduct which might result in disciplinary action may be characterized as academic misconduct or general unacceptable behaviour and may to be dealt with informally, or as a minor or major offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some types of misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 5: (1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of misconduct that have been reported?",
+                "role": "user"
+            },
+            {
+                "content": "Article 5: (1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 5: (1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "V. Types of misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 5: (1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "V. Types of misconduct - Article 5",
+                "role": "user"
+            },
+            {
+                "content": "(1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - V. Types of misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 5: (1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - V. Types of misconduct - Article 5",
+                "role": "user"
+            },
+            {
+                "content": "(1) Offenses may be of an academic or general nature. (2) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization. (3) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of offenses?",
+                "role": "user"
+            },
+            {
+                "content": "(2) Offenses may be of an academic or general nature.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "(3) With regard to academic misconduct, violations or attempted violations include, but are not limited to: Fabricating and facilitating academic dishonesty; Obstructing or disrupting teaching, research, academic administration; Cheating during exam sessions; Procuring, providing, or accepting any unauthorized assessment materials; Partially or totally completing any examination or assignment for another person; Plagiarizing or copying the work of another person and submitting it as his or her own work; Employing aids excluded by the instructor in undertaking course work or exams; Altering graded class assignments or examinations and then resubmitting them for re-grading; Submitting substantially the same material in more than one course without prior authorization.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "(4) With regard to more general misconduct, violations or attempted violations include, but are not limited to: Knowingly giving or disseminating false information; Failure to comply with a reasonable instruction, including refusing to identify oneself, given by a university official, on university property or at any external, officially organized event; or obstructing officials in carrying out their duty; Forgery, alteration, or misuse of any University document, record, key, electronic device or identification; Unauthorized entry to, possession of, receipt of, duplication of, or use of the campus or Universitys name, insignia, or seal; Theft, damage or destruction of University property or the property of others while on University premises; Misuse of computing facilities or computer time, as described in the Rule on Computer and Network Use; Unauthorized entry to, possession of, receipt, or use of any campus or University property, equipment, resources, or services; Violation of policies, regulations, or rules governing campus or University- owned or operated housing facilities or leased housing facilities; Knowingly reporting a false emergency; Verbal abuse, or more sustained harassment, either directed at an individual or group, including derogatory references to race, ethnicity, religion, gender, sexual orientation, disability, or other personal/group characteristics; Physical abuse such as physical assault, threats of violence, or conduct that threatens the health or safety of any person; Disorderly or lewd conduct such as swearing and drunkenness; Unlawful or attempted manufacture, distribution, dispensing, possession, use, or sale of narcotics or other illegal substances; or unauthorized sale or use of alcohol; Actual or attempted manufacture, possession, storage, or use of fireworks, explosives and/or explosive devices, firearms or other dangerous or destructive devices or weapons.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some of the most important competencies of an engineer?",
+                "role": "user"
+            },
+            {
+                "content": "Article 6: (1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some of the most important competencies of a person?",
+                "role": "user"
+            },
+            {
+                "content": "Article 6: (1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some of the most important competencies of a human?",
+                "role": "user"
+            },
+            {
+                "content": "Article 6: (1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VI. Competencies",
+                "role": "user"
+            },
+            {
+                "content": "Article 6: (1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VI. Competencies - Article 6",
+                "role": "user"
+            },
+            {
+                "content": "(1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VI. Competencies",
+                "role": "user"
+            },
+            {
+                "content": "Article 6: (1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VI. Competencies - Article 6",
+                "role": "user"
+            },
+            {
+                "content": "(1) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours. (2) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records. (3) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct. (4) Alleged minor offences are reported to and dealt with by the Head of Security. (5) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action. (6) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general. (7) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association. (8) The mandate of permanent members of the Disciplinary Commission is four years. (9) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member. (10) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is responsible for dealing with routine issues of conduct?",
+                "role": "user"
+            },
+            {
+                "content": "(2) All members of staff and Student Parliament and Association officials are responsible for dealing with routine issues of conduct and for reporting minor/major misdemeanours.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the Dean's Office responsible for?",
+                "role": "user"
+            },
+            {
+                "content": "(3) The Deans Office is responsible for dealing with informal and minor issues of academic misconduct within the department. The Dean and Pro-Deans decide whether the alleged offence should be dealt with informally, in an internal hearing (alleged minor offence) or referred to the Disciplinary Commission (alleged major offence).  The Student Advisor provides information and advice and the Departmental Administrator maintains records.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is responsible for dealing with informal issues of general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "(4) The Security Service and Manager of dormitories/housing facilities is responsible for dealing with informal issues of general misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the head of security?",
+                "role": "user"
+            },
+            {
+                "content": "(5) Alleged minor offences are reported to and dealt with by the Head of Security.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is the head of security?",
+                "role": "user"
+            },
+            {
+                "content": "(6) Alleged major offenses are reported to the Director of Facilities by the Head of Security for further action.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the university's disciplinary commission?",
+                "role": "user"
+            },
+            {
+                "content": "(7) The University Disciplinary Commission, established by the Rector, investigates and makes decisions or proposals about cases pertaining to alleged major disciplinary offences, both academic and general.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How many members does the Commission have?",
+                "role": "user"
+            },
+            {
+                "content": "(8) The Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the mandate of the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "(9) The mandate of permanent members of the Disciplinary Commission is four years.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What must members of the Commission declare in writing?",
+                "role": "user"
+            },
+            {
+                "content": "(10) All members must declare in writing that they have no conflict of interest.  In cases of conflict of interest, the member of the Commission is substituted with another temporary member.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What does the Legal Services Office do for the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "(11) The Legal Services Office provides support to the Disciplinary Commission as follows: Gathering documented evidence; Preparation of sessions schedule; Notification of persons needed to be present (place, date and time of the sessions); Keeping minutes and files for the disciplinary sessions; Informing all relevant people about decisions; Other issues necessary for implementing the procedure.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of informal management of unacceptable conduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 7: Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of informal management of unacceptable behavior?",
+                "role": "user"
+            },
+            {
+                "content": "Article 7: Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of informal management?",
+                "role": "user"
+            },
+            {
+                "content": "Article 7: Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VII. Informal management of unacceptable conduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 7: Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VII. Informal management of unacceptable conduct - Article 7",
+                "role": "user"
+            },
+            {
+                "content": "Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VII. Informal management of unacceptable conduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 7: Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VII. Informal management of unacceptable conduct - Article 7",
+                "role": "user"
+            },
+            {
+                "content": "Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the person who is responsible for dealing with academic and general conduct which is not acceptable?",
+                "role": "user"
+            },
+            {
+                "content": "(1) Academic and general conduct which is not acceptable but which does not warrant formal action is dealt with immediately by the relevant member. This response is characterized by advising the student(s) why the conduct is not acceptable, giving clear advice concerning expectations for future behaviour and/or a warning of future consequences if the behaviour is repeated. This should be discussed with and understood by the student(s) involved.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of minor academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 8: (1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of minor academic misconduct that can happen?",
+                "role": "user"
+            },
+            {
+                "content": "Article 8: (1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the most common type of academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 8: (1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VIII. Minor academic misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 8: (1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "VIII. Minor academic misconduct - Article 8",
+                "role": "user"
+            },
+            {
+                "content": "(1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VIII. Minor academic misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 8: (1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - VIII. Minor academic misconduct - Article 8",
+                "role": "user"
+            },
+            {
+                "content": "(1) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected. (3) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (4) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office. (5) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the maximum penalty for this offense?",
+                "role": "user"
+            },
+            {
+                "content": "(2) This involves inappropriate academic conduct which has a limited but discernible impact and/or which is repeated.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take for the Dean to make a decision?",
+                "role": "user"
+            },
+            {
+                "content": "(3) In such cases, the Deans Office of the respective Faculty organizes a hearing. The Dean invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the report of the alleged offence. The Dean and Pro-Deans then meet to analyse the evidence and make a decision within one week after the evidence is collected.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the sanctions that can be imposed by the Dean's Office?",
+                "role": "user"
+            },
+            {
+                "content": "(4) One or more of the following sanctions may be imposed by the Deans Office: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the Dean's Office?",
+                "role": "user"
+            },
+            {
+                "content": "(5) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Deans Office.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take for a student to appeal a sanction?",
+                "role": "user"
+            },
+            {
+                "content": "(6) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Pro-rector for academic planning and digitalization, within one week after the communication of the sanction. The Pro-rector for academic planning and digitalization re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the most common type of minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 9: (1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the minimum age for minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 9: (1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Article 9: (1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "IX. Minor general misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 9: (1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "IX. Minor general misconduct - Article 9",
+                "role": "user"
+            },
+            {
+                "content": "(1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - IX. Minor general misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 9: (1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - IX. Minor general misconduct - Article 9",
+                "role": "user"
+            },
+            {
+                "content": "(1) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated. (2) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing. (3) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence. (4) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected. (5) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation. (6) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office. (7) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the definition of \"inappropriate general conduct?\"",
+                "role": "user"
+            },
+            {
+                "content": "(2) This involves inappropriate general conduct which has a limited but discernible impact and/or which is repeated.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the person who conducts a hearing?",
+                "role": "user"
+            },
+            {
+                "content": "(3) In such cases, the alleged misconduct is reported to the Head of Security who conducts a hearing.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take for a statement to be provided?",
+                "role": "user"
+            },
+            {
+                "content": "(4) The Head of Security invites all parties involved to provide a statement of what happened, plus any additional evidence, within 3 working days from the alleged offence.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take to make a decision?",
+                "role": "user"
+            },
+            {
+                "content": "(5) The Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the sanctions that can be imposed?",
+                "role": "user"
+            },
+            {
+                "content": "(6) One or more of the following sanctions may be imposed: Warning; Exclusion from specific activities related to the disciplinary issue for a limited period; Probation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What should all parties be informed of?",
+                "role": "user"
+            },
+            {
+                "content": "(7) All parties should be informed in writing of the decision and sanction and the record should be archived for reference in the Security Office.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take for the Secretary General to review the appeal?",
+                "role": "user"
+            },
+            {
+                "content": "(8) Any student sanctioned under this type of misconduct can appeal the sanction in writing to the Secretary General, within one week after the sanction. The Secretary General re-evaluates the process and evidence and informs all parties of the outcome within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of misconduct listed in this section?",
+                "role": "user"
+            },
+            {
+                "content": "Article 10: (1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What type of misconduct does this section cover?",
+                "role": "user"
+            },
+            {
+                "content": "Article 10: (1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the types of misconduct listed in the section?",
+                "role": "user"
+            },
+            {
+                "content": "Article 10: (1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "X. Major academic and general misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 10: (1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "X. Major academic and general misconduct - Article 10",
+                "role": "user"
+            },
+            {
+                "content": "(1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - X. Major academic and general misconduct",
+                "role": "user"
+            },
+            {
+                "content": "Article 10: (1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - X. Major academic and general misconduct - Article 10",
+                "role": "user"
+            },
+            {
+                "content": "(1) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission. (2) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting. (3) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office). (4) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services. (5) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the body that deals with misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "(2) Major alleged misconduct which has a serious and/or high level of individual or general impact or potential harm is dealt with by the Disciplinary Commission.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What does the Rector/ Secretary General have the right to do?",
+                "role": "user"
+            },
+            {
+                "content": "(3) In cases involving serious accusations of misconduct, the Rector/ Secretary General has the right to instruct the alleged offender(s) to stay off all university premises for the duration of the investigation, until invited to the Commission meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the head of security's relationship with the director of facilities?",
+                "role": "user"
+            },
+            {
+                "content": "(4) In cases when the alleged offence is of major character, the Head of Security, in liaison with the Director of Facilities, reports the case in writing to the Administrator of the University Disciplinary Commission (Legal Services Office).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does the Chair of the Commission decide if a case should be referred back to the original reporter?",
+                "role": "user"
+            },
+            {
+                "content": "(5) The Administrator informs the Chair of the Commission who analyses the case and decides whether to start the procedure or refer the case back to the original reporter for resolution on a minor level. The Chair of the Commission may seek advice from the Legal Services Office and/or Student Services.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long does it take for the Disciplinary Committee to convene?",
+                "role": "user"
+            },
+            {
+                "content": "(6) If the procedure is initiated, the Legal Services Office organizes, in consultation with the Chair the initial meeting of the Disciplinary Committee. This is normally within 7 working days. The administrator takes the following actions in preparation for the meeting: Requests written statements from the alleged offender(s) and other witnesses; Requests the head of department from of the alleged offenders department to appoint two ad-hoc member to the Commission; Collates and provides all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the university disciplinary commission?",
+                "role": "user"
+            },
+            {
+                "content": "Article 11: (1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend). Article 12: (1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule. Article 13: (1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What does the Disciplinary Commission do?",
+                "role": "user"
+            },
+            {
+                "content": "Article 11: (1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend). Article 12: (1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule. Article 13: (1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the commission?",
+                "role": "user"
+            },
+            {
+                "content": "Article 11: (1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend). Article 12: (1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule. Article 13: (1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XI. University Disciplinary Commission",
+                "role": "user"
+            },
+            {
+                "content": "Article 11: (1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend). Article 12: (1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule. Article 13: (1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XI. University Disciplinary Commission - Article 11",
+                "role": "user"
+            },
+            {
+                "content": "(1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XI. University Disciplinary Commission - Article 12",
+                "role": "user"
+            },
+            {
+                "content": "(1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XI. University Disciplinary Commission - Article 13",
+                "role": "user"
+            },
+            {
+                "content": "(1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XI. University Disciplinary Commission",
+                "role": "user"
+            },
+            {
+                "content": "Article 11: (1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend). Article 12: (1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule. Article 13: (1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XI. University Disciplinary Commission - Article 11",
+                "role": "user"
+            },
+            {
+                "content": "(1) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission. (2) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation. (3) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is the Chair of the Commission?",
+                "role": "user"
+            },
+            {
+                "content": "(2) The meeting is chaired by the Chair of the Commission. In case the Chair is absent, the Commission appoints an ad-hoc Chair of the Commission from the members of the Commission.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the person who presents the supporting documentation?",
+                "role": "user"
+            },
+            {
+                "content": "(3) In the initial meeting, the Chair reports the case to the Commission and the administrator presents the supporting documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the commission that decides what additional documentation is needed?",
+                "role": "user"
+            },
+            {
+                "content": "(4) Based on the support documentation and the presentation of the case, the Commission decides what additional documentation is needed and instructs the administrator to: ask for and collate supplementary evidence as requested; schedule the main meeting of the Commission within five working days; invite in writing the alleged offender(s) and the witnesses to come to the main meeting and testify in person in front of the Commission (the meeting should be scheduled at a reasonable time for all parties to attend).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XI. University Disciplinary Commission - Article 12",
+                "role": "user"
+            },
+            {
+                "content": "(1) At the main meeting, the Commission analyses the facts, witness statements and written documentation. (2) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement. (3) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them. (4) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What does the Commission do after the main meeting?",
+                "role": "user"
+            },
+            {
+                "content": "(2) At the main meeting, the Commission analyses the facts, witness statements and written documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the commission?",
+                "role": "user"
+            },
+            {
+                "content": "(3) If one or more parties do(es) not attend the meeting with a reason (e.g. health), the Commission meets anyway to conduct the interview with any of the present parties and decides to organize an additional meeting for the absent party to testify and/or give a written statement.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the commission?",
+                "role": "user"
+            },
+            {
+                "content": "(4) Any absence of one or more parties not reported in writing and in advance of the meeting is not excused and the Commissions work will continue without them.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the body that makes their conclusions and proposals?",
+                "role": "user"
+            },
+            {
+                "content": "(5) After the facts have been discussed, the Commission makes their conclusions and proposals based on this Rule.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XI. University Disciplinary Commission - Article 13",
+                "role": "user"
+            },
+            {
+                "content": "(1) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.  (2) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector. (3) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.  (4) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some of the sanctions that can be imposed?",
+                "role": "user"
+            },
+            {
+                "content": "(2) One or more of the following sanctions may be imposed, in accordance with the weight of the offence: Seek for a public apology from the perpetrator of the offence; Written warning; Exclusion from specific activities or area of the campus related to the disciplinary issue for a limited period; Probation; Special assignment, such as, but not limited to, community service; Fine in line with damage done; Suspension of student status for up to one academic year.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens after the disciplinary procedure?",
+                "role": "user"
+            },
+            {
+                "content": "(3) At the end of the disciplinary procedure, the Commission gives their decision, in writing to the Rector.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the office that communicates with the alleged offender?",
+                "role": "user"
+            },
+            {
+                "content": "(4) The Rector confirms the proposal of the Commission. The confirmed decision is communicated to the alleged offender(s) and other relevant parties through the Legal Services Office.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens if the Rector disagrees with the proposals and measures?",
+                "role": "user"
+            },
+            {
+                "content": "(5) In case the Rector disagrees with the proposals and measure, s/he gives his/her reasons in writing to the Commission. They re-convene to consider this and submit their final proposal which could be the same or different. The Rector brings a final decision based on the final proposal from the Commission or if there is still disagreement, the Commission is automatically dissolved and the procedure starts again.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the first step in appealing a decision?",
+                "role": "user"
+            },
+            {
+                "content": "Article 14: (1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the first step in appealing the decision?",
+                "role": "user"
+            },
+            {
+                "content": "Article 14: (1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the steps to appeal a decision?",
+                "role": "user"
+            },
+            {
+                "content": "Article 14: (1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XII. Appealing the decision",
+                "role": "user"
+            },
+            {
+                "content": "Article 14: (1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XII. Appealing the decision - Article 14",
+                "role": "user"
+            },
+            {
+                "content": "(1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XII. Appealing the decision",
+                "role": "user"
+            },
+            {
+                "content": "Article 14: (1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XII. Appealing the decision - Article 14",
+                "role": "user"
+            },
+            {
+                "content": "(1) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive. (2) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest. (3) The Executive Committee of the University Board will review the appealed decision at its next meeting. (4) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership. (5) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How can I appeal a decision?",
+                "role": "user"
+            },
+            {
+                "content": "(2) The Decision can be appealed to the Executive Committee of the Board within 15 days, through the University Archive.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the name of the committee that reviews cases?",
+                "role": "user"
+            },
+            {
+                "content": "(3) If a member of the Executive Committee of the University Board has been involved in an earlier stage of the proceedings he/she does not participate in reviewing of this case. Members of the Executive Committee of the University Board must declare in writing that they have no conflict of interest.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "When will the Executive Committee of the University Board review the appealed decision?",
+                "role": "user"
+            },
+            {
+                "content": "(4) The Executive Committee of the University Board will review the appealed decision at its next meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How many members are required to make a decision?",
+                "role": "user"
+            },
+            {
+                "content": "(5) The review of the complaint should include the review of all documentation of the disciplinary case. Following this review, the final decision is made with a simple majority of the membership.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does the Executive Committee of the University Board make a decision?",
+                "role": "user"
+            },
+            {
+                "content": "(6) The Executive Committee of the University Board informs the Rector and the party who has filed the complaint through the Secretary of the University Board. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the last section of the document?",
+                "role": "user"
+            },
+            {
+                "content": "Article 15: This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the section title of the section titled XIII?",
+                "role": "user"
+            },
+            {
+                "content": "Article 15: This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the section title of the section XIII?",
+                "role": "user"
+            },
+            {
+                "content": "Article 15: This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XIII. Concluding Provisions",
+                "role": "user"
+            },
+            {
+                "content": "Article 15: This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "XIII. Concluding Provisions - Article 15",
+                "role": "user"
+            },
+            {
+                "content": "This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XIII. Concluding Provisions",
+                "role": "user"
+            },
+            {
+                "content": "Article 15: This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - XIII. Concluding Provisions - Article 15",
+                "role": "user"
+            },
+            {
+                "content": "This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What date does this rule come into force?",
+                "role": "user"
+            },
+            {
+                "content": "(1) This Rule comes into force from 01.10.2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "RULE ON STUDENT CONDUCT - Based on Article 94, paragraph 1, item 43 of the Law on Higher Education (Official Gazette of Republic of Macedonia, number 82/2018 and Official Gazette of Republic of North Macedonia, number 154/2019, 76/2020 and 178/2021), and Article 31, paragraph 1, item 30 Statute of South East European University, the University Senate, at its meeting held on 28.09.2021 approved the following:  RULE ON STUDENT CONDUCT",
+                "role": "user"
+            },
+            {
+                "content": "This Rule regulates student conduct and disciplinary action. It deals with expected standards of behaviour, and action(s) or behaviour which are unacceptable and which have a real or potentially adverse effect. It includes both informal and formal steps of disciplinary procedure.",
+                "role": "system"
+            }
+        ]
+    ]
+}

@@ -2,18 +2,12 @@
 
 This repository contains scripts to fine-tune **Mistral-7B-Instruct-v0.3** using **LoRA (Low-Rank Adaptation)** for **question-answering (QA) tasks**.
 
-## Install Dependencies
+## Clone the repository
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Krenar123/ft_llms_from_text_documents.git
-   cd ft_llms_from_text_documents
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/Krenar123/ft_llms_from_text_documents.git
+cd ft_llms_from_text_documents
+```
 
 ## Running the Fine-Tuning Script
 
@@ -26,8 +20,9 @@ huggingface-cli login
 To fine-tune the model, run:
 
 ```bash
-python main.py
+./start_ft.sh
 ```
+This will install all required dependencies and execute main.py
 
 Worth noting that you must have access to https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
 

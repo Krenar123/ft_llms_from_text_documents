@@ -1,0 +1,794 @@
+{
+    "messages": [
+        [
+            {
+                "content": "What are the standards of behavior expected of students at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "SEEU students are expected to:\n\nUphold honesty and academic integrity.\n\nComply with university policies, campus regulations, and the law.\n\nConduct themselves in a manner compatible with the university's values and standards.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What actions are considered academic misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Academic misconduct includes:\n\nCheating during exams.\n\nPlagiarizing.\n\nSubmitting someone else's work as your own.\n\nUsing unauthorized aids during coursework or exams.\n\nAltering graded assignments for re-grading.\n\nSubmitting the same work for multiple courses without permission.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Can you provide examples of general misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "General misconduct includes behaviors that disrupt the university environment or violate its rules. Examples include:\n\nProviding false information.\n\nDisobeying university officials.\n\nForgery or misuse of university documents.\n\nTheft or damage of university property.\n\nMisuse of computing facilities.\n\nUnauthorized entry or use of university resources.\n\nViolation of housing policies.\n\nReporting false emergencies.\n\nVerbal or physical abuse, including harassment.\n\nDisorderly conduct.\n\nUse or distribution of illegal substances.\n\nPossession of weapons or explosives.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does SEEU categorize and address misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "SEEU addresses misconduct at three levels:\n\nInformal: Minor misconduct is addressed through advice, warnings, and discussions with the student.\n\nMinor Offence: Inappropriate conduct with limited impact is addressed through a hearing by the Dean's Office (for academic misconduct) or the Head of Security (for general misconduct). Sanctions may include warnings, exclusion from activities, or probation.\n\nMajor Offence: Serious misconduct with a significant impact is investigated by the University Disciplinary Commission. Sanctions can range from apologies and warnings to fines, suspension, or expulsion.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who are the entities responsible for handling disciplinary actions at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Several entities are involved in handling disciplinary actions:\n\nStaff and Student Representatives: Address routine conduct issues and report misdemeanors.\n\nDean's Office: Handles informal and minor academic misconduct.\n\nSecurity Service: Deals with informal and minor general misconduct.\n\nUniversity Disciplinary Commission: Investigates and makes decisions on major offenses.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the specific role of the University Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "The Commission investigates allegations of major academic and general misconduct. Responsibilities include:\n\nGathering evidence.\n\nInterviewing witnesses.\n\nRecommending sanctions to the Rector.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Can students appeal disciplinary decisions made against them?",
+                "role": "user"
+            },
+            {
+                "content": "Yes, students have the right to appeal sanctions:\n\nMinor Offenses: Appeals are made to the Pro-rector for Academic Planning and Digitalization (academic) or the Secretary General (general).\n\nMajor Offenses: Appeals are made to the Executive Committee of the Board.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "When was the SEEU Rule on Student Conduct implemented?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule on Student Conduct came into effect on October 1, 2021",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the overarching objective of the SEEU Rule on Student Conduct?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule aims to regulate student conduct and disciplinary actions, defining expected behaviors and outlining procedures for addressing unacceptable actions that adversely affect the university environment.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does the SEEU Rule on Student Conduct emphasize the duality of student rights and responsibilities?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule acknowledges that students, as members of both society and the academic community, possess inherent rights and responsibilities. It underscores their obligation to adhere to legal statutes, university policies, and campus regulations.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the significance of honesty as a core principle within the SEEU academic community?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule stresses the paramount importance of honesty in safeguarding scholarly integrity. The university expects students to uphold this principle to ensure the legitimacy of academic achievements and the upholding of academic standards.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What measures are instructors expected to take to foster academic integrity?",
+                "role": "user"
+            },
+            {
+                "content": "Instructors are tasked with meticulous planning and supervision of academic work, encouraging and supporting students in their pursuit of academic integrity.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who has the authority to report potential student misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Any individual can report suspected student misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Can you provide a specific example of academic misconduct related to examination procedures?",
+                "role": "user"
+            },
+            {
+                "content": "Obtaining, supplying, or accepting unauthorized assessment materials constitutes a violation of academic integrity.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What actions related to graded assignments are deemed as academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Tampering with and resubmitting previously graded assignments for the purpose of re-grading is a form of academic misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Is it permissible for students to submit the same work for multiple courses?",
+                "role": "user"
+            },
+            {
+                "content": "Submitting substantially similar work for more than one course without prior authorization from the instructors involved is considered academic misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the consequences for students who fail to identify themselves when requested by university officials?",
+                "role": "user"
+            },
+            {
+                "content": "Students who refuse to identify themselves when instructed by a university official, whether on university property or at an official off-campus event, may face disciplinary action. Obstructing officials in the performance of their duties is also subject to disciplinary measures.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What specific regulations govern the use of SEEU's name and symbols?",
+                "role": "user"
+            },
+            {
+                "content": "Unauthorized use or reproduction of the university\u2019s name, insignia, or seal is strictly prohibited.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Where can one find detailed information regarding the acceptable use of computing facilities at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "The SEEU Rule on Computer and Network Use outlines the regulations for the appropriate utilization of computing facilities.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Does the SEEU Rule on Student Conduct address behaviors related to false emergency reports?",
+                "role": "user"
+            },
+            {
+                "content": "Knowingly filing a false emergency report is explicitly categorized as misconduct within the Rule.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does the Rule define harassment and what forms of harassment are prohibited?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule defines harassment as verbal abuse or persistent actions targeting an individual or a group. Harassment based on race, ethnicity, religion, gender, sexual orientation, disability, or any other personal or group characteristics is strictly prohibited.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the ramifications of possessing or using prohibited substances on SEEU grounds?",
+                "role": "user"
+            },
+            {
+                "content": "The unauthorized manufacture, distribution, dispensing, possession, use, or sale of illegal drugs or other prohibited substances is strictly forbidden. Similarly, the unauthorized sale or consumption of alcohol is subject to disciplinary action.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Does the SEEU Rule on Student Conduct extend to the possession of weapons?",
+                "role": "user"
+            },
+            {
+                "content": "The Rule explicitly prohibits the possession, storage, or use of firearms, explosives, or other dangerous weapons or devices on university premises.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who handles routine conduct issues and the reporting of minor offenses?",
+                "role": "user"
+            },
+            {
+                "content": "All staff members, along with officials from the Student Parliament and Association, are responsible for addressing routine conduct matters and reporting minor offenses.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the function of the Student Advisor in cases of academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "The Student Advisor plays a crucial role in providing information and guidance to students involved in cases of academic misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is responsible for managing informal issues of general misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "The Security Service and the Manager of dormitories or housing facilities are tasked with addressing informal instances of general misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How are alleged minor offenses of a general nature addressed?",
+                "role": "user"
+            },
+            {
+                "content": "The Head of Security is responsible for handling reports of alleged minor general misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "To whom are major offenses reported for further action?",
+                "role": "user"
+            },
+            {
+                "content": "The Head of Security reports alleged major offenses to the Director of Facilities for subsequent action.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the composition of the University Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "The Commission comprises:\n\nThe Director of Student Services (serving in an ex-officio capacity).\n\nOne member from the Managerial Executive Team.\n\nOne member from the academic staff.\n\nOne ad-hoc member appointed by the relevant Dean from the Dean's Office.\n\nOne ad-hoc member appointed by the Student Parliament and Association.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How long is the term for permanent members of the University Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "Permanent members of the Disciplinary Commission serve a four-year term.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What steps are taken to ensure impartiality among members of the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "All members of the Commission are required to submit a written declaration affirming that they have no conflict of interest in the cases they are reviewing. If a conflict of interest arises, the affected member is replaced with a temporary substitute.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the responsibilities of the Legal Services Office in supporting the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "The Legal Services Office provides comprehensive support to the Disciplinary Commission, including:\n\nGathering and compiling documented evidence.\n\nPreparing and coordinating session schedules.\n\nNotifying involved individuals about meeting details (location, date, and time).\n\nMaintaining accurate minutes and case files.\n\nDisseminating decisions to relevant parties.\n\nAddressing other logistical or procedural requirements.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How is unacceptable conduct managed informally at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Unacceptable conduct that does not warrant formal disciplinary action is addressed promptly and informally. The involved student is advised on why the behavior is unacceptable, given clear guidance regarding expected future conduct, and may receive a warning about potential consequences for repeated misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What constitutes minor academic misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Minor academic misconduct involves inappropriate actions with a limited but noticeable impact, or instances of repeated misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the procedure for handling minor academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "The respective Faculty's Dean's Office organizes a hearing. The Dean requests statements from all parties involved, along with any supporting evidence, within three working days of the reported offense. The Dean and Pro-Deans then convene to review the evidence and reach a decision within a week.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What types of sanctions can be imposed for minor academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "The Dean's Office may impose one or more of the following sanctions:\n\nA formal warning.\n\nExclusion from specific activities related to the misconduct for a designated period.\n\nPlacement on academic probation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What avenue of appeal is available to students sanctioned for minor academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Students have the right to appeal sanctions for minor academic misconduct in writing to the Pro-rector for academic planning and digitalization within one week of receiving the sanction.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the process for appealing a sanction for minor academic misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "The Pro-rector for academic planning and digitalization reviews the process, examines the evidence, and informs all involved parties of the outcome within one week of receiving the appeal. The Pro-rector's decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How is minor general misconduct defined at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Minor general misconduct encompasses inappropriate actions with a limited but observable impact or instances of recurring misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is responsible for conducting hearings in cases of minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "The Head of Security is responsible for conducting hearings in cases of minor general misconduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What sanctions may be imposed for minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Possible sanctions for minor general misconduct include:\n\nA warning.\n\nExclusion from specific activities related to the misconduct for a defined period.\n\nProbation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the appeal process for sanctions related to minor general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Students can appeal sanctions for minor general misconduct in writing to the Secretary General within one week of receiving the sanction. The Secretary General reviews the process, evaluates the evidence, and communicates the outcome to all parties within one week of receiving the appeal. This decision is final.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What criteria define major academic and general misconduct?",
+                "role": "user"
+            },
+            {
+                "content": "Major misconduct involves alleged offenses with significant individual or general impact, or those that pose a substantial potential for harm.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Under what circumstances can the Rector restrict a student's access to university premises?",
+                "role": "user"
+            },
+            {
+                "content": "In situations involving serious misconduct allegations, the Rector or the Secretary General has the authority to bar the accused student(s) from all university property pending the investigation. Students are permitted to return only upon invitation to a Commission meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the procedure for reporting major misconduct offenses?",
+                "role": "user"
+            },
+            {
+                "content": "The Head of Security, in coordination with the Director of Facilities, submits a written report detailing the alleged major offense to the Administrator of the University Disciplinary Commission (who is a part of the Legal Services Office).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the role of the Chair of the Disciplinary Commission in reviewing alleged major offenses?",
+                "role": "user"
+            },
+            {
+                "content": "The Administrator informs the Chair of the Commission about the reported offense. The Chair reviews the case and decides whether to initiate the disciplinary procedure or refer it back to the original reporter for resolution as a minor offense. The Chair may consult with the Legal Services Office and/or Student Services during this assessment.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What actions are taken if the Disciplinary Commission decides to initiate the procedure for a major offense?",
+                "role": "user"
+            },
+            {
+                "content": "If the procedure is initiated, the Legal Services Office, in consultation with the Chair, schedules the initial meeting of the Disciplinary Committee, typically within seven working days. The administrator then:\n\nCollects written statements from the accused student(s) and witnesses.\n\nRequests the head of the accused student's department to appoint two ad-hoc members to the Commission.\n\nGathers and organizes all relevant documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens if the Chair of the Disciplinary Commission is unavailable for a meeting?",
+                "role": "user"
+            },
+            {
+                "content": "If the Chair is absent, the Commission members appoint an acting Chair from among themselves to preside over the meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What transpires during the initial meeting of the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "During the initial meeting:\n\nThe Chair presents a summary of the case.\n\nThe administrator presents the collected documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Based on the initial review of the case, what further actions might the Disciplinary Commission take?",
+                "role": "user"
+            },
+            {
+                "content": "Based on the presented information and documentation, the Commission determines if any additional evidence is required. They then instruct the administrator to:\n\nGather supplementary evidence as needed.\n\nSchedule the main Commission meeting within five working days.\n\nFormally invite the accused student(s) and witnesses to attend the main meeting and provide in-person testimonies (ensuring that the meeting time is reasonable for all parties).",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the purpose of the main meeting of the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "The main meeting is convened for the Commission to analyze the facts, review witness statements, and examine the compiled written documentation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens if a party involved in a major misconduct case is unable to attend the main meeting?",
+                "role": "user"
+            },
+            {
+                "content": "If a party provides a valid reason for their absence (such as a health issue), the Commission proceeds with the meeting, interviews any present parties, and schedules an additional meeting for the absent party to testify or submit a written statement. However, if a party fails to notify the Commission in writing and in advance about their absence, the Commission proceeds without them.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens after the Disciplinary Commission has concluded its examination of the facts?",
+                "role": "user"
+            },
+            {
+                "content": "After reviewing the evidence, the Commission formulates conclusions and recommendations for sanctions based on the provisions of the SEEU Rule on Student Conduct.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What range of sanctions can the Disciplinary Commission recommend for major offenses?",
+                "role": "user"
+            },
+            {
+                "content": "The Commission has the authority to recommend one or more of the following sanctions, taking into account the severity of the offense:\n\nA public apology from the offender.\n\nA written warning.\n\nExclusion from specific campus activities or areas related to the misconduct for a specified duration.\n\nProbation.\n\nA special assignment, which may include community service.\n\nA fine commensurate with the damages caused.\n\nSuspension of student status for a period up to one academic year.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "To whom does the Disciplinary Commission submit their decision?",
+                "role": "user"
+            },
+            {
+                "content": "At the culmination of the disciplinary process, the Commission presents its written decision to the Rector for review and confirmation.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who has the final authority to confirm or reject the Disciplinary Commission's decision?",
+                "role": "user"
+            },
+            {
+                "content": "The Rector holds the final authority to either confirm or reject the Commission's recommendations.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens if the Rector disagrees with the Commission's proposed sanctions?",
+                "role": "user"
+            },
+            {
+                "content": "If the Rector disagrees with the Commission's proposed sanctions, they must provide a written explanation to the Commission. The Commission then reconvenes to consider the Rector's feedback and may either resubmit their original proposal or propose different sanctions. If a disagreement persists, the Commission is automatically dissolved, and the entire disciplinary procedure restarts.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the procedure for appealing a decision made by the Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "The decision can be appealed to the Executive Committee of the Board within 15 days by submitting an appeal through the University Archive.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What measures are in place to ensure fairness in the appeal review process?",
+                "role": "user"
+            },
+            {
+                "content": "Any member of the Executive Committee of the University Board who was involved in earlier stages of the disciplinary proceedings is recused from the appeal review. Members of the Executive Committee are also required to provide a written declaration stating that they have no conflict of interest in the case.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the timeline for the Executive Committee of the University Board to review an appeal?",
+                "role": "user"
+            },
+            {
+                "content": "The Executive Committee reviews the appealed decision at their next scheduled meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What does the appeal review process entail?",
+                "role": "user"
+            },
+            {
+                "content": "The review of the complaint encompasses a thorough examination of all documentation related to the disciplinary case.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does the Executive Committee of the University Board reach a decision on an appeal?",
+                "role": "user"
+            },
+            {
+                "content": "The Executive Committee arrives at a final decision on the appeal through a simple majority vote.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Who is responsible for communicating the Executive Committee's final decision on an appeal?",
+                "role": "user"
+            },
+            {
+                "content": "The Executive Committee of the University Board informs both the Rector and the appealing party of their final decision, using the Secretary of the University Board as the communication channel. The Executive Committee's decision is final and not subject to further appeals.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "When did the SEEU Rule on Student Conduct become official policy?",
+                "role": "user"
+            },
+            {
+                "content": "The SEEU Rule on Student Conduct was enacted on October 1, 2021, as the concluding provision of the document.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What actions can be taken against students who engage in academic misconduct, such as cheating or plagiarism?",
+                "role": "user"
+            },
+            {
+                "content": "The consequences for academic misconduct depend on the severity of the offense.\n\nInformal resolution: For minor instances, students may receive advice, warnings, or discussions with faculty members.\n\nMinor Offence: For more serious cases, a hearing may be held by the Dean's Office, potentially leading to warnings, exclusion from activities, or probation.\n\nMajor Offence: If the misconduct is considered a major offense, the University Disciplinary Commission will investigate. Possible sanctions include apologies, warnings, fines, suspension, or even expulsion.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does SEEU address non-academic misconduct, such as theft or vandalism?",
+                "role": "user"
+            },
+            {
+                "content": "General misconduct, like academic misconduct, is addressed at different levels depending on the severity.\n\nInformal resolution: Minor misconduct is typically addressed through advice, warnings, and discussions. This might involve staff, Student Parliament representatives, or Security Service personnel.\n\nMinor Offence: The Head of Security manages minor offenses, which might involve a hearing. Sanctions could include warnings, exclusion from activities, or probation.\n\nMajor Offence: Serious misconduct cases are investigated by the University Disciplinary Commission. The commission can recommend a range of sanctions, from apologies to fines, suspension, or expulsion.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What role do students play in maintaining conduct standards at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "Students have a responsibility to uphold SEEU's conduct standards and can contribute to a positive university environment in several ways:\n\nReporting Misconduct: Students can report any observed misconduct.\n\nParticipation in Disciplinary Processes: Student representatives participate in the University Disciplinary Commission, ensuring student perspectives are considered.\n\nSetting a Positive Example: By adhering to the rules and principles outlined in the Rule on Student Conduct, students set a positive example for their peers.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Can a student be temporarily banned from campus during an investigation?",
+                "role": "user"
+            },
+            {
+                "content": "Yes. In cases of serious misconduct accusations, the Rector or Secretary General can bar the accused student from university premises while the investigation is ongoing. The student would be allowed to return for the Commission meeting.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the appeals process for students who disagree with a disciplinary decision?",
+                "role": "user"
+            },
+            {
+                "content": "Students have the right to appeal disciplinary sanctions:\n\nMinor Offenses: Appeals for academic misconduct are made to the Pro-rector for Academic Planning and Digitalization. For general misconduct, appeals go to the Secretary General.\n\nMajor Offenses: Appeals are submitted to the Executive Committee of the Board.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How is the University Disciplinary Commission structured?",
+                "role": "user"
+            },
+            {
+                "content": "The Commission is made up of several members:\n\nPermanent Members: The Director of Student Services, one member from the Managerial Executive Team, and one academic staff member.\n\nAd-hoc Members: One member appointed by the relevant Dean's Office and one appointed by the Student Parliament and Association.\n\nThis structure ensures a balanced representation of different perspectives in the disciplinary process.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are the general expectations for student behavior at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "SEEU students are expected to adhere to the law, university policies, and campus regulations. They are also expected to conduct themselves in a manner that aligns with the university's values and standards. This includes maintaining academic integrity and respecting the rights and well-being of others within the university community.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What specific actions are considered academic misconduct at SEEU?",
+                "role": "user"
+            },
+            {
+                "content": "The sources provide a detailed list of actions that constitute academic misconduct, including:\n\nCheating: Engaging in any form of cheating during exams.\n\nPlagiarism: Submitting someone else's work as one's own.\n\nUnauthorized Assistance: Using unauthorized aids or assistance during coursework or exams.\n\nFalsification: Altering graded assignments for re-grading.\n\nDuplicate Submission: Submitting the same work for multiple courses without permission.\n\nFacilitating Dishonesty: Helping others engage in academic dishonesty.\n\nDisruption: Obstructing or disrupting teaching, research, or academic administration.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What are some examples of non-academic misconduct that could lead to disciplinary action?",
+                "role": "user"
+            },
+            {
+                "content": "The sources list various non-academic misconducts:\n\nFalse Information: Providing false information to the university.\n\nNon-Compliance: Disobeying university officials or not following their instructions.\n\nForgery/Misuse: Forging, altering, or misusing university documents or identification.\n\nTheft/Damage: Stealing or damaging university property or the property of others on university premises.\n\nTechnology Misuse: Misusing computing facilities or computer time, as defined in the Rule on Computer and Network Use.\n\nUnauthorized Access: Unauthorized entry or use of university property, equipment, resources, or services.\n\nHousing Violations: Violating policies governing on-campus or university-owned housing.\n\nFalse Emergencies: Reporting false emergencies.\n\nAbuse/Harassment: Engaging in verbal or physical abuse, including harassment based on personal characteristics.\n\nDisorderly Conduct: Engaging in disruptive or lewd behavior, including public intoxication.\n\nSubstance Abuse: Unlawful possession, use, distribution, or sale of drugs or alcohol.\n\nWeapons: Possessing or using weapons or explosives.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "How does SEEU differentiate between minor and major offenses?",
+                "role": "user"
+            },
+            {
+                "content": "The SEEU Rule on Student Conduct classifies offenses into three categories:\n\nInformal: These are minor instances of misconduct with limited impact. They are addressed through advice, warnings, and informal discussions.\n\nMinor Offense: This refers to inappropriate conduct with a limited but discernible impact or repeated instances of misconduct. These offenses are handled through hearings by the Dean's Office (for academic misconduct) or the Head of Security (for general misconduct). Sanctions may include warnings, exclusion from specific activities, or probation.\n\nMajor Offense: This involves serious misconduct that has a significant impact or potential harm. These offenses are investigated by the University Disciplinary Commission, which recommends sanctions to the Rector. Sanctions can range from apologies and warnings to fines, suspension, or expulsion.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What happens when a student is accused of a minor academic offense?",
+                "role": "user"
+            },
+            {
+                "content": "When a student is accused of a minor academic offense, the Dean's Office of the respective faculty handles the situation:\n\nHearing: The Dean organizes a hearing, inviting the accused student and any other involved parties to provide statements and evidence within three working days of the report.\n\nDecision: The Dean and Pro-Deans review the evidence and reach a decision within a week. Possible sanctions include warnings, exclusion from specific activities, or probation.\n\nNotification and Record: All parties are informed in writing of the decision and the imposed sanction. The record of the case is archived in the Dean's Office.\n\nAppeal: The student has the right to appeal the sanction in writing to the Pro-rector for Academic Planning and Digitalization within a week of receiving the sanction notification.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the procedure for addressing a minor general misconduct offense?",
+                "role": "user"
+            },
+            {
+                "content": "The Head of Security is responsible for addressing allegations of minor general misconduct:\n\nReport: The alleged misconduct is reported to the Head of Security.\n\nHearing: The Head of Security conducts a hearing, inviting all involved parties to submit statements and evidence within three working days.\n\nDecision: The Head of Security, along with another Security Operator and/or the Manager of dormitories/housing facilities, reviews the evidence and makes a decision within a week.\n\nSanctions: Possible sanctions include warnings, exclusion from specific activities, or probation.\n\nNotification and Record: The decision and sanction are communicated to all parties in writing. The record is archived in the Security Office.\n\nAppeal: The student can appeal the sanction in writing to the Secretary General within one week of receiving the sanction.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What is the role of the University Disciplinary Commission in handling major offenses?",
+                "role": "user"
+            },
+            {
+                "content": "The University Disciplinary Commission investigates and makes decisions or proposals regarding alleged major disciplinary offenses, both academic and general. Here's how it works:\n\nReporting: For serious accusations, the Head of Security, in consultation with the Director of Facilities, submits a written report to the Administrator of the University Disciplinary Commission (Legal Services Office).\n\nCase Analysis: The Administrator informs the Chair of the Commission, who decides whether to initiate the disciplinary procedure or refer the case back for resolution as a minor offense.\n\nInitial Meeting: If the procedure is started, the Legal Services Office organizes an initial meeting of the Disciplinary Committee, usually within seven working days. The Administrator prepares for this meeting by gathering statements from involved parties, requesting the appointment of ad-hoc members, and collating all relevant documentation.\n\nMain Meeting: At the main meeting, the Commission analyzes the evidence, hears witness testimonies, and reviews documentation. If a party is absent with a valid reason, an additional meeting may be scheduled for their testimony. Unreported absences are not excused, and the Commission proceeds without the absent party.\n\nDecision and Sanction: Based on the evidence, the Commission reaches a decision and proposes sanctions to the Rector, considering the severity of the offense.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "Can the Rector overrule the Commission's decision in a major offense case?",
+                "role": "user"
+            },
+            {
+                "content": "Yes. If the Rector disagrees with the Commission's proposed sanctions, they must provide written reasons for their disagreement. The Commission then reconsiders the case and submits a final proposal, which may be the same as the original or revised. The Rector then makes the final decision based on this final proposal. However, if the Rector and the Commission cannot agree, the Commission is dissolved, and the entire disciplinary procedure begins anew.",
+                "role": "system"
+            }
+        ],
+        [
+            {
+                "content": "What rights do students have to appeal disciplinary decisions made by the University Disciplinary Commission?",
+                "role": "user"
+            },
+            {
+                "content": "Students can appeal the Commission's decision to the Executive Committee of the Board within 15 days of the decision, submitting their appeal through the University Archive. The Executive Committee reviews the case documentation at its next meeting and makes a final decision by a simple majority vote. This decision is final and binding.",
+                "role": "system"
+            }
+        ]
+    ]
+}
