@@ -63,8 +63,8 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
         fine_tuned_ppl = compute_perplexity(fine_tuned_model, fine_tuned_tokenizer, question)
 
         # Compute evaluation metrics
-        base_f1 = compute_f1(base_response, expected)
-        fine_tuned_f1 = compute_f1(fine_tuned_response, expected)
+        #base_f1 = compute_f1(base_response, expected)
+        #fine_tuned_f1 = compute_f1(fine_tuned_response, expected)
 
         base_em = compute_exact_match(base_response, expected)
         fine_tuned_em = compute_exact_match(fine_tuned_response, expected)
@@ -79,14 +79,14 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
         print(f"Base Model ({base_model_name}):")
         print(f"Response: {base_response}")
         print(f"Perplexity: {base_ppl:.2f}")
-        print(f"F1 Score: {base_f1:.2f}")
+        #print(f"F1 Score: {base_f1:.2f}")
         print(f"Exact Match: {base_em}")
         print(f"ROUGE-1: {base_rouge1:.2f}, ROUGE-L: {base_rougeL:.2f}")
         print("-" * 80)
         print(f"Fine-Tuned Model ({fine_tuned_model_name}):")
         print(f"Response: {fine_tuned_response}")
         print(f"Perplexity: {fine_tuned_ppl:.2f}")
-        print(f"F1 Score: {fine_tuned_f1:.2f}")
+        #print(f"F1 Score: {fine_tuned_f1:.2f}")
         print(f"Exact Match: {fine_tuned_em}")
         print(f"ROUGE-1: {fine_tuned_rouge1:.2f}, ROUGE-L: {fine_tuned_rougeL:.2f}")
         print("=" * 100)
