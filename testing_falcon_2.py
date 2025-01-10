@@ -37,7 +37,7 @@ def generate_qa_pairs(chunk):
         inputs["input_ids"],
         attention_mask=inputs["attention_mask"],  # Add attention mask here
         pad_token_id=tokenizer.pad_token_id,  # Specify pad token ID
-        max_length=1024,
+        max_length=2048,
         num_beams=5,
         temperature=0.7,
         no_repeat_ngram_size=2
