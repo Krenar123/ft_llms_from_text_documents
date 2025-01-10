@@ -77,7 +77,7 @@ def generate_questions_from_text(prompt_text):
     inputs = tokenizer(prompt_text, return_tensors="pt", max_length=512, truncation=True)
     outputs = model.generate(
         inputs["input_ids"].to("cuda"),
-        max_length=156,
+        max_length=1024,
         num_return_sequences=3,
         num_beams=3,
         temperature=0.3,
