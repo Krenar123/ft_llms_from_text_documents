@@ -37,7 +37,7 @@ def generate_qa_pairs(chunk):
         inputs["input_ids"],
         attention_mask=inputs["attention_mask"],  # Add attention mask here
         pad_token_id=tokenizer.pad_token_id,  # Specify pad token ID
-        max_length=512,
+        max_length=1024,
         num_beams=5,
         temperature=0.7,
         no_repeat_ngram_size=2
@@ -51,7 +51,7 @@ def process_document(file_path):
     with open(file_path, "r") as file:
         text = file.read()
 
-    max_chunk_words = 200  # Define chunk size
+    max_chunk_words = 1000  # Define chunk size
     overlap = 50  # Add overlap to maintain context
     qa_pairs = []
 
@@ -71,7 +71,7 @@ file_path = "output.txt"
 qa_pairs = process_document(file_path)
 
 # Save the results to a file
-with open("qa_pairs.json", "w") as output_file:
+with open("qa_pairs_2.json", "w") as output_file:
     json.dump(qa_pairs, output_file, indent=4)
 
 # Print generated QA pairs
