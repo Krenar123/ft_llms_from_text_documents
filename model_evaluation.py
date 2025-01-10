@@ -1,14 +1,20 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel  # Import PeftModel to apply LoRA adapter
 import evaluate  # Import evaluate library
 from rouge_score import rouge_scorer
 
-def load_model(model_name):
-    """Loads a model and tokenizer."""
+def load_model(model_name, adapter_path=None):
+    """Loads a base model and optionally applies a LoRA adapter."""
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
         model_name, device_map="auto", torch_dtype=torch.float16
     )
+
+    # Apply the LoRA adapter if provided
+    if adapter_path:
+        model = PeftModel.from_pretrained(model, adapter_path)
+
     model.eval()
     return model, tokenizer
 
@@ -44,36 +50,47 @@ def compute_rouge(prediction, reference):
     scores = rouge_metric.compute(predictions=[prediction], references=[reference])
     return scores["rouge1"].fmeasure, scores["rougeL"].fmeasure
 
-def evaluate_models(model_name, test_data):
-    """Evaluates the base model vs. the fine-tuned model."""
-    model, tokenizer = load_model(model_name)
+def evaluate_models(base_model_name, fine_tuned_adapter_path, test_data):
+    """Evaluates the base model vs. the fine-tuned adapter."""
+    base_model, base_tokenizer = load_model(base_model_name)
+    fine_tuned_model, fine_tuned_tokenizer = load_model(base_model_name, fine_tuned_adapter_path)
     
     for sample in test_data:
         question, expected = sample["question"], sample["expected_answer"]
         
-        response = generate_response(model, tokenizer, question)
+        base_response = generate_response(base_model, base_tokenizer, question)
+        fine_tuned_response = generate_response(fine_tuned_model, fine_tuned_tokenizer, question)
         
-        ppl = compute_perplexity(model, tokenizer, question)
-        f1 = compute_f1(response, expected)
-        em = compute_exact_match(response, expected)
-        rouge1, rougeL = compute_rouge(response, expected)
+        base_ppl = compute_perplexity(base_model, base_tokenizer, question)
+        fine_tuned_ppl = compute_perplexity(fine_tuned_model, fine_tuned_tokenizer, question)
+        
+        #base_f1 = compute_f1(base_response, base_tokenizer, expected)
+        #fine_tuned_f1 = compute_f1(fine_tuned_response, fine_tuned_tokenizer, expected)
+        
+        base_em = compute_exact_match(base_response, expected)
+        fine_tuned_em = compute_exact_match(fine_tuned_response, expected)
+        
+        base_rouge1, base_rougeL = compute_rouge(base_response, expected)
+        fine_tuned_rouge1, fine_tuned_rougeL = compute_rouge(fine_tuned_response, expected)
         
         print(f"Question: {question}")
-        print(f"Model Response: {response}")
+        print(f"Base Model: {base_response}")
+        print(f"Fine-Tuned Model: {fine_tuned_response}")
         print(f"Expected Answer: {expected}")
-        print(f"Perplexity: {ppl:.2f}")
-        print(f"F1 Score: {f1:.2f}")
-        print(f"Exact Match: {em}")
-        print(f"ROUGE-1: {rouge1:.2f}")
-        print(f"ROUGE-L: {rougeL:.2f}")
+        print(f"Perplexity - Base: {base_ppl:.2f}, Fine-Tuned: {fine_tuned_ppl:.2f}")
+        #print(f"F1 Score - Base: {base_f1:.2f}, Fine-Tuned: {fine_tuned_f1:.2f}")
+        print(f"Exact Match - Base: {base_em}, Fine-Tuned: {fine_tuned_em}")
+        print(f"ROUGE-1 - Base: {base_rouge1:.2f}, Fine-Tuned: {fine_tuned_rouge1:.2f}")
+        print(f"ROUGE-L - Base: {base_rougeL:.2f}, Fine-Tuned: {fine_tuned_rougeL:.2f}")
         print("-" * 80)
 
 if __name__ == "__main__":
-    model_name = "krenard/mistral7b-merged-qapairs"  # Full fine-tuned model
+    base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
+    fine_tuned_adapter_path = "krenard/autotrain-mistral7b-notebooklm-qapairs"  # LoRA adapter path
 
     test_data = [
-        {"question": "What are the standards of student behavior?", "expected_answer": "Students must comply with university policies."},
-        {"question": "What happens if a student breaks the rules?", "expected_answer": "They may face disciplinary actions."},
+        {"question": "What are the standards of student behavior?", "expected_answer": "(1) Students are members of society and the academic community with attendant rights and responsibilities.  (2) Students are expected to comply with the general law, University policies and campus regulations.  (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined. "},
+        {"question": "What happens if a student breaks the rules?", "expected_answer": "Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."},
     ]
     
-    evaluate_models(model_name, test_data)
+    evaluate_models(base_model_name, fine_tuned_adapter_path, test_data)
