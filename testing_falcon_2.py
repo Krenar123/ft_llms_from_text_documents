@@ -9,6 +9,9 @@ model = AutoModelForCausalLM.from_pretrained(
     model_name, device_map="auto", torch_dtype=torch.float16
 )
 
+# Set pad_token_id to ensure padding tokens are handled correctly
+tokenizer.pad_token = tokenizer.eos_token  # This can be adjusted depending on the model
+
 def chunk_text(text, max_length, overlap=50):
     """Split the text into manageable chunks with overlap."""
     words = text.split()
@@ -24,14 +27,22 @@ def generate_qa_pairs(chunk):
         "[{'question': '...', 'answer': '...'}, {'question': '...', 'answer': '...'}]\n\n"
         f"Text:\n{chunk}\n\nQA Pairs:"
     )
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to("cuda")
+    # Tokenize and generate the attention mask
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, padding=True)
+    
+    # Ensure attention_mask is set and pad_token_id is used
+    inputs = {key: value.to("cuda") for key, value in inputs.items()}  # Move tensors to GPU
+    
     outputs = model.generate(
         inputs["input_ids"],
+        attention_mask=inputs["attention_mask"],  # Add attention mask here
+        pad_token_id=tokenizer.pad_token_id,  # Specify pad token ID
         max_length=512,
         num_beams=5,
         temperature=0.7,
         no_repeat_ngram_size=2
     )
+    
     result = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return result
 
@@ -66,4 +77,3 @@ with open("qa_pairs.json", "w") as output_file:
 # Print generated QA pairs
 for qa in qa_pairs:
     print(f"Q: {qa['question']}\nA: {qa['answer']}\n")
-
