@@ -34,7 +34,7 @@ def generate_questions(section_name, section_text):
     # Generate the output
     outputs = model.generate(
         inputs["input_ids"].to("cuda"),
-        max_length=250,  # Ensure concise output
+        max_length=512,  # Ensure concise output
         num_return_sequences=3,  # Generate multiple outputs
         num_beams=3,  # Reduce the beams for better diversity
         temperature=0.4,  # Add randomness for variety
