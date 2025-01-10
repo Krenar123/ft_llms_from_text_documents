@@ -10,7 +10,9 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME, device_map="auto", torch_dtype=torch.float16
 )
-qa_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+
+# Remove device=0 since accelerate handles device placement automatically
+qa_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 def generate_questions(text):
     """Generates multiple questions from a given text."""
