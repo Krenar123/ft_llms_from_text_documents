@@ -17,7 +17,7 @@ qa_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer)
 def generate_questions(text):
     """Generates multiple questions from a given text."""
     prompt = f"Generate 3 questions based on the following passage:\n{text}\nQuestions:"
-    output = qa_pipeline(prompt, max_length=200, num_return_sequences=1)[0]["generated_text"]
+    output = qa_pipeline(prompt, max_new_tokens=50, num_return_sequences=1)[0]["generated_text"]
     
     # Extract questions from output
     questions = [q.strip() for q in output.split("\n") if q.strip()]
