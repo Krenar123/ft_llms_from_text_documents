@@ -5,14 +5,18 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
 
-# Hugging Face Authentication (Uncomment if needed)
+# Hugging Face Authentication (Uncomment if you need to use Hugging Face Hub)
 # HUGGINGFACE_TOKEN = "your_huggingface_token"  # Add your token here
 # login(token=HUGGINGFACE_TOKEN)
 
-# Load the Mistral-7B model and tokenizer
+# Load the Mistral-7B model and tokenizer with 8-bit precision
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16)
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_NAME, 
+    device_map="auto", 
+    load_in_8bit=True  # Load model in 8-bit precision
+)
 
 # Assign pad_token if not already defined
 if tokenizer.pad_token is None:
@@ -60,29 +64,23 @@ lora_config = LoraConfig(
 # Apply LoRA to the model
 model = get_peft_model(model, lora_config)
 
-# Ensure that all model parameters (including LoRA parameters) are trainable
-for param in model.parameters():
-    param.requires_grad = True  # Unfreeze all parameters (or selectively freeze/unfreeze layers as needed)
-
 # Training arguments
 training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
-    eval_strategy="no",  # No evaluation (adjust as needed)
+    evaluation_strategy="no",  # Adjust as needed
     save_strategy="epoch",
     logging_steps=10,
     save_total_limit=2,
     num_train_epochs=3,
     learning_rate=5e-5,
     weight_decay=0.01,
-    fp16=True,
+    fp16=True,  # Optional, depends on your hardware
     push_to_hub=True,  # Upload to Hugging Face
-    hub_model_id="krenard/mistral-merged-automated-qapairs-finetuned",  # Model ID on Hugging Face
-    max_grad_norm=None,  # Disable gradient clipping for testing
+    hub_model_id="krenard/mistral-automated-qapairs-finetuned",  # Model ID on Hugging Face
 )
 
-# Trainer initialization
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -92,6 +90,6 @@ trainer = Trainer(
 # Train the model
 trainer.train()
 
-# Save and push to Hugging Face Hub
+# Save the model and push to Hugging Face Hub
 trainer.push_to_hub()
 print("Fine-tuned model saved and uploaded to Hugging Face!")
