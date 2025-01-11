@@ -11,7 +11,7 @@ HUGGINGFACE_TOKEN = ""
 login(token=HUGGINGFACE_TOKEN)
 
 # Load Mistral-7B model and tokenizer
-MODEL_NAME = "mistralai/Mistral-7B-Instruct"
+MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME, device_map="auto", torch_dtype=torch.float16
