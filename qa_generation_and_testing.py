@@ -49,7 +49,7 @@ def qa_generator_llm(context: str):
 
     inputs = tokenizer(generation_prompt, return_tensors="pt").to("cuda")
     with torch.no_grad():
-        output = model.generate(**inputs, max_length=500, temperature=0.5, top_p=0.99)
+        output = model.generate(**inputs, max_length=700, temperature=0.5, top_p=0.99)
     
     generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
 
