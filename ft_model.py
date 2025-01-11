@@ -18,7 +18,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # Load the QA dataset
-with open("qa_dataset.json", "r", encoding="utf-8") as file:
+with open("qa_pairs.json", "r", encoding="utf-8") as file:
     qa_data = json.load(file)
 
 # Convert to Hugging Face Dataset format
