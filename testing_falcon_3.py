@@ -37,7 +37,7 @@ def generate_questions(section_name, section_text):
         max_length=1024,  # Ensure concise output
         num_return_sequences=3,  # Generate multiple outputs
         num_beams=3,  # Reduce the beams for better diversity
-        temperature=0.4,  # Add randomness for variety
+        temperature=0.1,  # Add randomness for variety
         do_sample=True,
         early_stopping=True
     )
@@ -60,17 +60,20 @@ def process_numbered_parts(article_text):
     part_qa_pairs = []  # List to store QA pairs for parts
 
     for part in numbered_parts:
-        # Generate a question for each part
+        # Generate multiple questions for each part (3 questions in total)
         prompt_text = (
             f"You are an AI assistant trained to generate questions. "
-            f"Based on the following content, generate a highly relevant question.\n"
+            f"Based on the following content, generate 3 highly relevant questions.\n"
             f"Content: {part}"
         )
         
-        question = generate_questions_from_text(prompt_text)  # Generate a single question
-        part_qa_pairs.append({"question": question, "answer": part})  # Add the QA pair
+        questions = generate_questions_from_text(prompt_text)  # Generate 3 questions
+        
+        for question in questions:
+            part_qa_pairs.append({"question": question, "answer": part})  # Add the QA pair for each question
     
     return part_qa_pairs
+
 
 # Function to generate a single question from text
 def generate_questions_from_text(prompt_text):
@@ -80,7 +83,7 @@ def generate_questions_from_text(prompt_text):
         max_length=1024,
         num_return_sequences=3,
         num_beams=3,
-        temperature=0.3,
+        temperature=0.1,
         do_sample=True,
         early_stopping=True
     )
