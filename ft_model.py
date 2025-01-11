@@ -12,7 +12,7 @@ from huggingface_hub import login
 # Load the Mistral-7B model and tokenizer
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto")
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16)
 
 # Assign pad_token if not already defined
 if tokenizer.pad_token is None:
@@ -79,6 +79,7 @@ training_args = TrainingArguments(
     fp16=True,
     push_to_hub=True,  # Upload to Hugging Face
     hub_model_id="krenard/mistral-merged-automated-qapairs-finetuned",  # Model ID on Hugging Face
+    max_grad_norm=None,  # Disable gradient clipping for testing
 )
 
 # Trainer initialization
