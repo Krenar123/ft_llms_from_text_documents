@@ -5,14 +5,18 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
 
-# Hugging Face Authentication
-#HUGGINGFACE_TOKEN = "your_huggingface_token"  # Add your token here
-#login(token=HUGGINGFACE_TOKEN)
+# Hugging Face Authentication (Uncomment if you need to use Hugging Face Hub)
+# HUGGINGFACE_TOKEN = "your_huggingface_token"  # Add your token here
+# login(token=HUGGINGFACE_TOKEN)
 
 # Load the Mistral-7B model and tokenizer
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16)
+
+# Assign pad_token if not already defined
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
 
 # Load the QA dataset
 with open("qa_pairs.json", "r", encoding="utf-8") as file:
