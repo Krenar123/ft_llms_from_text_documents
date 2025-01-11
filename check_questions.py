@@ -3,7 +3,7 @@ import torch
 import json
 
 # Load the pre-trained Mistral model and tokenizer
-model_name = 'mistralai/Mistral-7B'  # Mistral model on Hugging Face
+model_name = 'mistralai/Mistral-7B-Instruct-v0.3'  # Mistral model on Hugging Face
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 

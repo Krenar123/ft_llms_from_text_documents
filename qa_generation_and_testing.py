@@ -21,6 +21,8 @@ text_splitter = RecursiveCharacterTextSplitter(
 docs_processed = text_splitter.split_text(text)
 
 # Load Hugging Face Mistral model
+# lmsys/vicuna-7b-v1.5
+# mistralai/Mistral-7B-Instruct-v0.3
 model_name = "AMead10/Llama-3.2-3B-Instruct-AWQ"  # Change to preferred model if needed
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
