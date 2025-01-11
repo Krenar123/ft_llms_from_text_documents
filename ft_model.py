@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
 
-# Hugging Face Authentication (Uncomment if you need to use Hugging Face Hub)
+# Hugging Face Authentication (Uncomment if needed)
 # HUGGINGFACE_TOKEN = "your_huggingface_token"  # Add your token here
 # login(token=HUGGINGFACE_TOKEN)
 
@@ -60,12 +60,16 @@ lora_config = LoraConfig(
 # Apply LoRA to the model
 model = get_peft_model(model, lora_config)
 
+# Ensure that all model parameters (including LoRA parameters) are trainable
+for param in model.parameters():
+    param.requires_grad = True  # Unfreeze all parameters (or selectively freeze/unfreeze layers as needed)
+
 # Training arguments
 training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
-    evaluation_strategy="no",  # Adjust as needed
+    eval_strategy="no",  # No evaluation (adjust as needed)
     save_strategy="epoch",
     logging_steps=10,
     save_total_limit=2,
@@ -74,9 +78,10 @@ training_args = TrainingArguments(
     weight_decay=0.01,
     fp16=True,
     push_to_hub=True,  # Upload to Hugging Face
-    hub_model_id="krenard/mistral-automated-qapairs-finetuned",  # Model ID on Hugging Face
+    hub_model_id="krenard/mistral-merged-automated-qapairs-finetuned",  # Model ID on Hugging Face
 )
 
+# Trainer initialization
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -86,6 +91,6 @@ trainer = Trainer(
 # Train the model
 trainer.train()
 
-# Save the model and push to Hugging Face Hub
+# Save and push to Hugging Face Hub
 trainer.push_to_hub()
 print("Fine-tuned model saved and uploaded to Hugging Face!")
