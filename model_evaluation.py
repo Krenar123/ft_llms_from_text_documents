@@ -48,7 +48,7 @@ def compute_rouge(prediction, reference):
     """Computes ROUGE-1 and ROUGE-L scores."""
     rouge_metric = evaluate.load("rouge")  # Using evaluate for ROUGE
     scores = rouge_metric.compute(predictions=[prediction], references=[reference])
-    return scores["rouge1"].fmeasure, scores["rougeL"].fmeasure
+    return scores["rouge1"], scores["rougeL"]
 
 def evaluate_models(base_model_name, fine_tuned_adapter_path, test_data):
     """Evaluates the base model vs. the fine-tuned adapter."""
