@@ -35,7 +35,7 @@ def check_question_with_context(question, context):
 # Process each pair in the loaded data and check the question
 for pair in data:
     question = pair['question']
-    context = pair['context']
+    context = pair['answer']
     
     answer = check_question_with_context(question, context)
     
