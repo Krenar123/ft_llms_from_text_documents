@@ -35,7 +35,7 @@ def generate_questions(section_name, section_text):
     outputs = model.generate(
         inputs["input_ids"].to("cuda"),
         max_length=1024,  # Ensure concise output
-        num_return_sequences=3,  # Generate multiple outputs
+        num_return_sequences=3,  # Generate multiple outputs (3 questions)
         num_beams=3,  # Reduce the beams for better diversity
         temperature=0.1,  # Add randomness for variety
         do_sample=True,
@@ -50,7 +50,6 @@ def generate_questions(section_name, section_text):
 
     return list(questions)
 
-# Additional feature: Split article text into parts and generate QA pairs
 def process_numbered_parts(article_text):
     # Split based on numbered patterns like (1), (2), etc.
     parts = re.split(r"\(\d+\)", article_text)
@@ -69,25 +68,32 @@ def process_numbered_parts(article_text):
         
         questions = generate_questions_from_text(prompt_text)  # Generate 3 questions
         
+        # Separate each question for clarity
         for question in questions:
-            part_qa_pairs.append({"question": question, "answer": part})  # Add the QA pair for each question
+            part_qa_pairs.append({"question": question.strip(), "answer": part})  # Add the QA pair for each question
     
     return part_qa_pairs
 
 
-# Function to generate a single question from text
 def generate_questions_from_text(prompt_text):
     inputs = tokenizer(prompt_text, return_tensors="pt", max_length=512, truncation=True)
     outputs = model.generate(
         inputs["input_ids"].to("cuda"),
         max_length=1024,
-        num_return_sequences=3,
-        num_beams=3,
-        temperature=0.1,
+        num_return_sequences=3,  # Generate 3 different questions
+        num_beams=3,  # Reduce beams for diversity
+        temperature=0.1,  # Add randomness for variety
         do_sample=True,
         early_stopping=True
     )
-    return tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+    
+    # Decode and clean the output questions
+    questions = set()  # Use a set to remove duplicates
+    for output in outputs:
+        result = tokenizer.decode(output, skip_special_tokens=True)
+        questions.add(result.strip())
+    
+    return list(questions)
 
 # Iterate through the JSON structure and generate QA pairs
 for section_name, section_content in data.items():
@@ -144,7 +150,7 @@ if first_key in data:
         })
 
 # Save the output to a JSON file
-output_file = "qa_pairs.json"
+output_file = "qa_pairs_2.json"
 with open(output_file, "w") as file:
     json.dump(output_qa_pairs, file, indent=4)
 
