@@ -2,3 +2,9 @@ go through json and get the first object create a question about that and the an
 go through each (1) and generate a question -> the answer will be the same one and we can add based on the object key
 I might have to add each section name (add others that include the title) as question and add all the article_text as answer
 I might add for each section name add the article and then the article text for that article
+
+
+I have to summarize the answer and save summarize + actual answer
+
+
+compare vicuna, falcon, mistral qa_pairs

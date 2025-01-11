@@ -10,7 +10,8 @@ with open(input_file, "r", encoding="utf-8") as file:
     data = json.load(file)
 
 # Load Falcon 7B model and tokenizer for summarization
-model_name = "tiiuae/falcon-7b-instruct"
+# both lmsys/vicuna-7b-v1.5, tiiuae/falcon-7b-instruct
+model_name = "lmsys/vicuna-7b-v1.5"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype="auto")
 
