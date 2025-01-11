@@ -4,8 +4,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Load the Falcon-7B-Instruct model and tokenizer
-tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b-instruct")
-model = AutoModelForCausalLM.from_pretrained("tiiuae/falcon-7b-instruct", device_map="auto", torch_dtype=torch.float16)
+tokenizer = AutoTokenizer.from_pretrained("lmsys/vicuna-7b-v1.5")
+model = AutoModelForCausalLM.from_pretrained("lmsys/vicuna-7b-v1.5", device_map="auto", torch_dtype=torch.float16)
 
 # Load the input JSON file
 input_file = "rule_on_student_conduct_sep_2021_v2.json"
@@ -111,34 +111,34 @@ for section_name, section_content in data.items():
             output_qa_pairs.append({"question": question, "answer": combined_text})
 
         # Add section-level QA pair: section name as the question, combined article texts as the answer
-        output_qa_pairs.append({
-            "question": section_name,
-            "answer": combined_text
-        })
+        #output_qa_pairs.append({
+        #    "question": section_name,
+        #    "answer": combined_text
+        #})
 
         # Add article-level QA pairs: section name + article title as the question, article text as the answer
         for article in section_content["articles"]:
-            output_qa_pairs.append({
-                "question": f"{section_name} - {article['title']}",
-                "answer": article["article_text"]
-            })
+        #    output_qa_pairs.append({
+        #        "question": f"{section_name} - {article['title']}",
+        #        "answer": article["article_text"]
+        #    })
 
         # Add section-level QA pair: main_title + section_name as the question, combined article texts as the answer
-        output_qa_pairs.append({
-            "question": f"{main_title} - {section_name}",
-            "answer": combined_text
-        })
-
-        # Add article-level QA pairs: main_title + section_name + article title as the question, article text as the answer
-        for article in section_content["articles"]:
             output_qa_pairs.append({
-                "question": f"{main_title} - {section_name} - {article['title']}",
-                "answer": article["article_text"]
+                "question": f"{main_title} - {section_name}",
+                "answer": combined_text
             })
 
+        # Add article-level QA pairs: main_title + section_name + article title as the question, article text as the answer
+        #for article in section_content["articles"]:
+        #    output_qa_pairs.append({
+        #        "question": f"{main_title} - {section_name} - {article['title']}",
+        #        "answer": article["article_text"]
+        #    })
+
             # Process numbered parts in article text for additional QA pairs
-            numbered_part_pairs = process_numbered_parts(article["article_text"])
-            output_qa_pairs.extend(numbered_part_pairs)
+        numbered_part_pairs = process_numbered_parts(article["article_text"])
+        output_qa_pairs.extend(numbered_part_pairs)
 
 # Add introduction-level QA pair (if applicable)
 if first_key in data:
@@ -150,7 +150,7 @@ if first_key in data:
         })
 
 # Save the output to a JSON file
-output_file = "qa_pairs_2.json"
+output_file = "qa_pairs_vicuna.json"
 with open(output_file, "w") as file:
     json.dump(output_qa_pairs, file, indent=4)
 

@@ -71,6 +71,9 @@ for doc in tqdm(docs_processed):
             "answer": answer,
         })
 
+print
+print(outputs)
+
 # Function to evaluate QA pairs
 def judge_llm(context: str, question: str, answer: str):
     critique_prompt = f"""
@@ -106,6 +109,8 @@ Answer::: """
     try:
         score = int(evaluation_text.split("Total rating: ")[-1].strip())
         eval_text = evaluation_text.split("Total rating: ")[-2].split("Evaluation: ")[1].strip()
+        print(evaluation_text)
+        print
         return score, eval_text
     except:
         return 0, "Parsing error"
