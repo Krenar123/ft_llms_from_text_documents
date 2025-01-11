@@ -86,7 +86,7 @@ def evaluate_models(base_model_name, fine_tuned_adapter_path, test_data):
 
 if __name__ == "__main__":
     base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
-    fine_tuned_adapter_path = "krenard/autotrain-mistral7b-notebooklm-qapairs"  # LoRA adapter path
+    fine_tuned_adapter_path = "krenard/mistral-automated-qapairs-finetuned"  # LoRA adapter path
 
     test_data = [
         {"question": "What are the standards of student behavior?", "expected_answer": "(1) Students are members of society and the academic community with attendant rights and responsibilities.  (2) Students are expected to comply with the general law, University policies and campus regulations.  (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined. "},
