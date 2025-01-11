@@ -1,37 +1,45 @@
 import torch
 import json
-import transformers
 from datasets import Dataset
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
 from peft import LoraConfig, get_peft_model
-from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer
 from huggingface_hub import login
 
-# Hugging Face Authentication (replace with your token)
-#HUGGINGFACE_TOKEN = "your_huggingface_token_here"
+# Hugging Face Authentication
+#HUGGINGFACE_TOKEN = "your_huggingface_token"  # Add your token here
 #login(token=HUGGINGFACE_TOKEN)
 
-# Load Mistral-7B model and tokenizer
+# Load the Mistral-7B model and tokenizer
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME, device_map="auto", torch_dtype=torch.float16
-)
-
-# Set the padding token to be the same as the eos_token if it's not already defined
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
+model = AutoModelForCausalLM.from_pretrained(MODEL_NAME, device_map="auto", torch_dtype=torch.float16)
 
 # Load the QA dataset
 with open("qa_pairs.json", "r", encoding="utf-8") as file:
     qa_data = json.load(file)
 
+# Convert dataset to prompt-input-output format
+def convert_to_prompt_input_output(data):
+    converted_data = []
+    for item in data:
+        question = item['question']
+        answer = item['answer']
+        converted_data.append({
+            "question": question,
+            "answer": answer
+        })
+    return converted_data
+
+qa_data_converted = convert_to_prompt_input_output(qa_data)
+
 # Convert to Hugging Face Dataset format
-dataset = Dataset.from_list(qa_data)
+dataset = Dataset.from_list(qa_data_converted)
 
 # Tokenize dataset
 def tokenize_data(sample):
     input_text = f"Question: {sample['question']}\nAnswer:"
     output_text = sample["answer"]
+    
     inputs = tokenizer(input_text, truncation=True, padding="max_length", max_length=512)
     labels = tokenizer(output_text, truncation=True, padding="max_length", max_length=512)
     
@@ -53,7 +61,7 @@ training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
-    evaluation_strategy="steps",
+    evaluation_strategy="steps",  # Adjust as needed
     save_strategy="epoch",
     logging_steps=10,
     save_total_limit=2,
@@ -62,7 +70,7 @@ training_args = TrainingArguments(
     weight_decay=0.01,
     fp16=True,
     push_to_hub=True,  # Upload to Hugging Face
-    hub_model_id="krenard/mistral-automated-qapairs-finetuned",
+    hub_model_id="krenard/mistral-automated-qapairs-finetuned",  # Model ID on Hugging Face
 )
 
 trainer = Trainer(
