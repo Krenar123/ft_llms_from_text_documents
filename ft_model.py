@@ -1,14 +1,14 @@
 import torch
 import json
 import transformers
-from datasets import load_dataset, Dataset
+from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments, Trainer
 from huggingface_hub import login
 
 # Hugging Face Authentication (replace with your token)
-HUGGINGFACE_TOKEN = ""
-login(token=HUGGINGFACE_TOKEN)
+#HUGGINGFACE_TOKEN = "your_huggingface_token_here"
+#login(token=HUGGINGFACE_TOKEN)
 
 # Load Mistral-7B model and tokenizer
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
@@ -16,6 +16,10 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME, device_map="auto", torch_dtype=torch.float16
 )
+
+# Set the padding token to be the same as the eos_token if it's not already defined
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token  # Use eos_token as pad_token
 
 # Load the QA dataset
 with open("qa_pairs.json", "r", encoding="utf-8") as file:
