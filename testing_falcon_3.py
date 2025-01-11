@@ -23,8 +23,8 @@ output_qa_pairs = []
 def generate_questions(section_name, section_text):
     main_prompt = (
         "You are an AI assistant trained to generate meaningful and diverse questions. "
-        "Based on the following section title and its purpose, generate specific, highly relevant questions. "
-        "Avoid general or repetitive questions.\n"
+        "Based on the following section title and its purpose, generate 3 specific, highly relevant questions. "
+        "Make sure the questions do not follow a numbered list format.\n"
         f"Section Title: {section_name}\nContent: {section_text}"
     )
     
@@ -54,7 +54,7 @@ def process_numbered_parts(article_text):
     # Split based on numbered patterns like (1), (2), etc.
     parts = re.split(r"\(\d+\)", article_text)
     # Re-add the split marker for each part
-    numbered_parts = [f"({i + 1}) {part.strip()}" for i, part in enumerate(parts) if part.strip()]
+    numbered_parts = [f"{part.strip()}" for part in parts if part.strip()]
     
     part_qa_pairs = []  # List to store QA pairs for parts
 
@@ -62,7 +62,7 @@ def process_numbered_parts(article_text):
         # Generate multiple questions for each part (3 questions in total)
         prompt_text = (
             f"You are an AI assistant trained to generate questions. "
-            f"Based on the following content, generate 3 highly relevant questions.\n"
+            f"Based on the following content, generate 3 relevant questions without numbers.\n"
             f"Content: {part}"
         )
         
