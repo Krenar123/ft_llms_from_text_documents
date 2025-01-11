@@ -1,14 +1,30 @@
 [
   {
-      "question": "You are an AI assistant trained to generate meaningful and diverse questions. Based on the following section title and its purpose, generate 3 specific, highly relevant questions. Make sure the questions do not follow a numbered list format.\nSection Title: II. Standards of student behaviour\nContent: Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.\n1. What are the specific rights and responsibilities of students in the academic community? \n2. What are the general laws that students should comply with? \n3. How should students conduct themselves at University functions and events?",
+      "question": "What are the specific rights and responsibilities of students in the academic community?",
       "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
+  },
+  {
+    "question": "What are the general laws that students should comply with?",
+    "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
+  },
+  {
+    "question": "How should students conduct themselves at University functions and events?",
+    "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
   },
   {
       "question": "You are an AI assistant trained to generate meaningful and diverse questions. Based on the following section title and its purpose, generate 3 specific, highly relevant questions. Make sure the questions do not follow a numbered list format.\nSection Title: II. Standards of student behaviour\nContent: Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.",
       "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
   },
   {
-      "question": "You are an AI assistant trained to generate meaningful and diverse questions. Based on the following section title and its purpose, generate 3 specific, highly relevant questions. Make sure the questions do not follow a numbered list format.\nSection Title: II. Standards of student behaviour\nContent: Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.\n1. What are the specific rights and responsibilities of students in the academic community? \n2. What are the general laws that students should comply with? \n3. How should students conduct themselves at University events and functions?",
+      "question": "What are the specific rights and responsibilities of students in the academic community?",
+      "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
+  },
+  {
+      "question": " What are the general laws that students should comply with?",
+      "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
+  },
+  {
+      "question": "How should students conduct themselves at University events and functions?",
       "answer": "Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
   },
   {
@@ -28,7 +44,15 @@
       "answer": "(1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."
   },
   {
-      "question": "You are an AI assistant trained to generate questions. Based on the following content, generate 3 relevant questions without numbers.\nContent: Students are members of society and the academic community with attendant rights and responsibilities.\n1. What are the rights and responsibilities of students in the academic community?\n2. How can students contribute positively to the academic community?\n3. What are some challenges that students may face in the academic community?",
+      "question": "What are the rights and responsibilities of students in the academic community?\n2. How can students contribute positively to the academic community?\n3. What are some challenges that students may face in the academic community?",
+      "answer": "Students are members of society and the academic community with attendant rights and responsibilities."
+  },
+  {
+      "question": "How can students contribute positively to the academic community?",
+      "answer": "Students are members of society and the academic community with attendant rights and responsibilities."
+  },
+  {
+      "question": "What are some challenges that students may face in the academic community?",
       "answer": "Students are members of society and the academic community with attendant rights and responsibilities."
   },
   {
