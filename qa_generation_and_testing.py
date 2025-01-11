@@ -122,8 +122,13 @@ final_dataset = [doc for doc in outputs if doc["score"] >= 4]
 df = pd.DataFrame(final_dataset)
 df.to_csv("filtered_qa_dataset.csv", index=False)
 
+ # Save as JSON
+with open("./qa_dataset.json", "w", encoding="utf-8") as f:
+    json.dump(final_dataset, f, ensure_ascii=False, indent=4)
+print("Dataset saved as JSON: qa_dataset.json")
+
 # Convert to Hugging Face dataset and save
-dataset = Dataset.from_pandas(df)
-dataset.save_to_disk("./qa_dataset")
+#dataset = Dataset.from_pandas(df)
+#dataset.save_to_disk("./qa_dataset")
 
 print("Processing complete. High-quality QA pairs saved.")
