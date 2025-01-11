@@ -11,7 +11,7 @@ with open(input_file, "r", encoding="utf-8") as file:
 
 # Load Falcon 7B model and tokenizer for summarization
 # both lmsys/vicuna-7b-v1.5, tiiuae/falcon-7b-instruct
-model_name = "lmsys/vicuna-7b-v1.5"
+model_name = "tiiuae/falcon-7b-instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype="auto")
 
@@ -28,7 +28,7 @@ def augment_dataset(data):
 
         # Generate summary using Falcon 7B
         summary_input = f"Summarize: {original_answer}"
-        summary_output = summarizer(summary_input, max_length=100, min_length=30, num_return_sequences=1)
+        summary_output = summarizer(summary_input, max_length=700, min_length=30, num_return_sequences=1)
 
         # Extract the summarized answer
         summarized_answer = summary_output[0]['generated_text']
