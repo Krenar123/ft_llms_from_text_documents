@@ -27,11 +27,8 @@ def summarize_answer(text):
 
 # Example input
 text_to_summarize = """
-RULE ON STUDENT CONDUCT - II. Standards of student behaviour
-Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities.
-(2) Students are expected to comply with the general law, University policies, and campus regulations.
-(3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.
-(4) The University reserves the right to take disciplinary action against students who violate the law or University policies."""
+III. Principles of Academic Integrity
+(1) The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind. (2) Students are expected to complete the course in compliance with the published standards and should not engage in any activity that involves attempting to receive a grade by dishonest means. Instructors, for their part, exercise care in planning and supervising academic work, so that academic effort and integrity is encouraged."""
 
 # Run summarization
 summary = summarize_answer(text_to_summarize)
