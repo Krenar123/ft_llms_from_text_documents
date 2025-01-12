@@ -13,10 +13,8 @@ summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_n
 
 # Function to summarize text
 def summarize_answer(text):
-    prompt = """
-    Your task is to write a factoid question and an answer given a context.
-    
-    Context: {text}\n"""
+    prompt = f"Your task is to write a factoid question and an answer given a context.\nYour factoid question should be answerable with a specific, concise piece of factual information from the context.\nYour factoid question should be formulated in the same style as questions users could ask in a search engine.\nThis means that your factoid question MUST NOT mention something like according to the passage or context.\nProvide your answer as follows:\nOutput:::\nFactoid question:\n Answer:\nNow here is the context.\nContext: {text}\n"
+
     
     # Generate summary using Vicuna
     summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.7)
