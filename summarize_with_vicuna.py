@@ -13,19 +13,36 @@ summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_n
 
 # Function to summarize text
 def summarize_answer(text):
-    prompt = f"Summarize the following text in a concise manner:\n\n{text}\n\nSummary:"
+    prompt = """
+    Your task is to write a factoid question and an answer given a context.
+    Your factoid question should be answerable with a specific, concise piece of factual information from the context.
+    Your factoid question should be formulated in the same style as questions users could ask in a search engine.
+    This means that your factoid question MUST NOT mention something like "according to the passage" or "context".
+
+    Provide your answer as follows:
+
+    Output:::
+    Factoid question: (your factoid question)
+    Answer: (your answer to the factoid question)
+
+    Now here is the context.
+
+    Context: {text}\n
+    Output:::"""
     
     # Generate summary using Vicuna
-    summary_output = summarizer(prompt, max_length=700, num_return_sequences=1, temperature=0.7)
+    summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.7)
     
     # Extract the summary (removing extra text if needed)
-    summarized_answer = summary_output[0]['generated_text'].split("Summary:")[-1].strip()
+    summarized_answer = summary_output[0]['generated_text']
     
     return summarized_answer
 
 
 # Example input
-text_to_summarize = """Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities.
+text_to_summarize = """
+RULE ON STUDENT CONDUCT - II. Standards of student behaviour
+Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities.
 (2) Students are expected to comply with the general law, University policies, and campus regulations.
 (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.
 (4) The University reserves the right to take disciplinary action against students who violate the law or University policies."""
