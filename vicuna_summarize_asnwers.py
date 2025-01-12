@@ -1,5 +1,7 @@
 import json
+from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+import torch
 
 # Load the input JSON file
 input_file = "processed_qa_data_vicuna.json"  # Replace with your actual file name
@@ -9,44 +11,41 @@ output_file = "summarized_qa_pairs_vicuna.json"
 with open(input_file, "r", encoding="utf-8") as file:
     data = json.load(file)
 
-# Load Vicuna model and tokenizer for summarization (or general-purpose generation)
-model_name = "lmsys/vicuna-7b-v1.5"  # Use the Vicuna model you want to utilize
+# Load the Vicuna model and tokenizer
+model_name = "lmsys/vicuna-7b-v1.5"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype="auto")
+model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype=torch.float16)
 
-# Create a text generation pipeline using Vicuna
-summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer)
+# Load your dataset into a Hugging Face Dataset object
+qa_dataset = Dataset.from_list(data)
 
-# Function to generate new QA pairs with summaries
-def augment_dataset(data):
-    new_data = []
+# Create a summarization pipeline using Vicuna
+summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+
+# Function to summarize each answer in the dataset
+def summarize_answer(example):
+    original_answer = example["answer"]
+    prompt = f"Please summarize the following text:\n{original_answer}"
     
-    for item in data:
-        question = item["question"]
-        original_answer = item["answer"]
-
-        # Prepare the prompt for summarization
-        prompt = f"Please summarize the following text:\n{original_answer}"
-
-        # Generate summary using Vicuna model
-        summary_output = summarizer(prompt, max_length=700, num_return_sequences=1, temperature=0.7)
-
-        # Extract the summarized answer
-        summarized_answer = summary_output[0]['generated_text'].strip()
-
-        # Keep the original QA pair
-        new_data.append({"question": question, "answer": original_answer})
-
-        # Add new QA pair with the summarized answer
-        new_data.append({"question": question, "answer": f"Summary: {summarized_answer}"})
+    # Generate summary using Vicuna model
+    summary_output = summarizer(prompt, max_length=700, num_return_sequences=1, temperature=0.7)
     
-    return new_data
+    # Extract the summarized answer
+    summarized_answer = summary_output[0]['generated_text'].strip()
+    
+    # Return both original and summarized answers in the example
+    return {
+        "question": example["question"],
+        "answer": example["answer"],
+        "summarized_answer": summarized_answer
+    }
 
-# Process the dataset
-augmented_data = augment_dataset(data)
+# Apply the summarization function to the entire dataset
+summarized_dataset = qa_dataset.map(summarize_answer, batched=False)
 
-# Save the new dataset to a JSON file
+# Save the summarized data to a new JSON file
+summarized_data = summarized_dataset.to_pandas().to_dict(orient="records")
 with open(output_file, "w", encoding="utf-8") as file:
-    json.dump(augmented_data, file, indent=2, ensure_ascii=False)
+    json.dump(summarized_data, file, indent=2, ensure_ascii=False)
 
-print(f"Generated {len(augmented_data)} QA pairs and saved to {output_file}")
+print(f"Generated summarized QA pairs and saved to {output_file}")
