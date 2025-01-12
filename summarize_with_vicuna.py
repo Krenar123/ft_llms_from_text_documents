@@ -28,7 +28,7 @@ def summarize_answer(example):
     prompt = f"Please summarize the following text and give me only the summarization:\n{original_answer}"
     
     # Generate summary using Vicuna model
-    summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.4)
+    summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.9)
     
     # Extract the summarized answer
     summarized_answer = summary_output[0]['generated_text'].strip()
