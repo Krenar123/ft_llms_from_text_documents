@@ -17,7 +17,7 @@ def summarize_answer(text):
 
     
     # Generate summary using Vicuna
-    summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.7)
+    summary_output = summarizer(prompt, max_length=2000, num_return_sequences=1, temperature=0.7)
     
     # Extract the summary (removing extra text if needed)
     summarized_answer = summary_output[0]['generated_text']
