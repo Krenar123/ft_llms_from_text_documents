@@ -9,7 +9,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype=torch.float16)
 
 # Create a text generation pipeline using Vicuna
-summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=150)
+summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=450)
 
 # Function to summarize text
 def summarize_answer(text):
