@@ -22,13 +22,12 @@ def summarize_answer(text):
     Provide your answer as follows:
 
     Output:::
-    Factoid question: (your factoid question)
-    Answer: (your answer to the factoid question)
+    Factoid question: 
+    Answer:
 
     Now here is the context.
 
-    Context: {text}\n
-    Output:::"""
+    Context: {text}\n"""
     
     # Generate summary using Vicuna
     summary_output = summarizer(prompt, max_length=1000, num_return_sequences=1, temperature=0.7)
