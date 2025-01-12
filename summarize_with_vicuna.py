@@ -24,7 +24,7 @@ summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 # Function to summarize each answer in the dataset
 def summarize_answer(example):
-    original_answer = example["answer"]
+    original_answer = example
     prompt = f"Please summarize the following text and give me only the summarization:\n{original_answer}"
     
     # Generate summary using Vicuna model
@@ -35,3 +35,6 @@ def summarize_answer(example):
     
     # Return both original and summarized answers in the example
     return summarized_answer
+
+
+summarize_answer("Article 2: (1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined.")
