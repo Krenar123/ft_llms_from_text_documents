@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 # Load the input JSON file
 input_file = "qa_pairs.json"  # Replace with your actual file name
-output_file = "augmented_qa_data_falcon.json"
+output_file = "summarized_qa_pairs.json"
 
 # Read the JSON file
 with open(input_file, "r", encoding="utf-8") as file:
@@ -11,7 +11,7 @@ with open(input_file, "r", encoding="utf-8") as file:
 
 # Load Falcon 7B model and tokenizer for summarization
 # both lmsys/vicuna-7b-v1.5, tiiuae/falcon-7b-instruct
-model_name = "tiiuae/falcon-7b-instruct"
+model_name = "lmsys/vicuna-7b-v1.5"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torch_dtype="auto")
 

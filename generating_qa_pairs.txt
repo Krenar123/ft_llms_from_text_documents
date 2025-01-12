@@ -8,3 +8,9 @@ I have to summarize the answer and save summarize + actual answer
 
 
 compare vicuna, falcon, mistral qa_pairs
+
+get all pairs, vicuna, falcon, mistral and summarize also remove duplicate and see how many qa pairs
+
+I generated falcon pairs, used falcon to summarize those answers
+I added the those pairs to final version qa pairsI used vicuna to generate pairs, refactored the qa pairs and added to the final qa pairs
+now Im gonna have to remove duplicates and you summarize and use that to add to final version to fine ToUnicode

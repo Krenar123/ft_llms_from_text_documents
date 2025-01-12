@@ -2,8 +2,8 @@ import json
 import re
 
 # Load the JSON file
-input_file = "qa_pairs_falcon.json"  # Change to your actual file name
-output_file = "processed_qa_data_2.json"
+input_file = "qa_pairs_vicuna.json"  # Change to your actual file name
+output_file = "processed_qa_data_vicuna.json"
 
 # Read the JSON file
 with open(input_file, "r", encoding="utf-8") as file:
