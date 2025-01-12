@@ -23,35 +23,35 @@ def summarize_answer(question, answer):
     return summarized_text
 
 # Load the input JSON file
-#input_file = "qa_pairs.json"  # Update with your actual file name
-#output_file = "summarized_qa_pairs.json"
+input_file = "qa_pairs_to_summarize.json"  # Update with your actual file name
+output_file = "qa_pairs_after_summarize.json"
 
 # Read the JSON file
-#with open(input_file, "r", encoding="utf-8") as file:
-#    data = json.load(file)
+with open(input_file, "r", encoding="utf-8") as file:
+    data = json.load(file)
 
 # Process each QA pair and add a summary
-#processed_data = []
-#for item in data:
-#    question = item["question"]
-#    answer = item["answer"]
+processed_data = []
+for item in data:
+    question = item["question"]
+    answer = item["answer"]
 #    
     # Generate summary
-#    summarized_answer = summarize_answer(answer)
+    summarized_answer = summarize_answer(question, answer)
     
     # Store new QA pair with summary
-#    processed_data.append({
-#        "question": question,
-#        "answer": answer,
-#        "summarize": summarized_answer
-#    })
+    processed_data.append({
+        "question": question,
+        "answer": answer,
+        "summarize": summarized_answer
+    })
 
 # Save the new dataset to a JSON file
-#with open(output_file, "w", encoding="utf-8") as file:
-#    json.dump(processed_data, file, indent=2, ensure_ascii=False)
+with open(output_file, "w", encoding="utf-8") as file:
+    json.dump(processed_data, file, indent=2, ensure_ascii=False)
 
-question = "How does the University expect students to uphold the principle of honesty in their academic work?"
-answer = "The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind."
-a = summarize_answer(question, answer)
-print(a)
-#print(f"Summarization complete! Saved to {output_file}")
+#question = "How does the University expect students to uphold the principle of honesty in their academic work?"
+#answer = "The principle of honesty must be upheld if the integrity of scholarship is to be maintained by an academic community. The University expects that students will honour this principle and in so doing protect the validity of University learning and academic standards. This means that all academic work will be done by the student to whom it is assigned, without unauthorized aid of any kind."
+#a = summarize_answer(question, answer)
+#print(a)
+print(f"Summarization complete! Saved to {output_file}")
