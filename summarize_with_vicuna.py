@@ -33,4 +33,4 @@ text_to_summarize = """Article 2: (1) Students are members of society and the ac
 # Run summarization
 summary = summarize_answer(text_to_summarize)
 
-print("Summarized Text:\n", summary)
+print(summary)
