@@ -11,7 +11,7 @@ model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torc
 summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=250)
 
 # Function to summarize an answer
-def summarize_answer(answer):
+def summarize_answer(question, answer):
     prompt = f"Summarize the following text in a concise manner based on question and context:\n Question:{question}\n\Context:{answer}\n\nSummary:"
     
     # Generate summary using Vicuna
