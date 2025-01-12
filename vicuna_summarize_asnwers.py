@@ -20,12 +20,15 @@ model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torc
 qa_dataset = Dataset.from_list(data)
 
 # Create a text generation pipeline using Vicuna
-summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer)
+summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=150)
 
 # Function to summarize each answer in the dataset
 def summarize_answer(example):
     original_answer = example["answer"]
-    prompt = f"Please summarize the following text:\n{original_answer}"
+    prompt = f"Summarize the following text in a concise manner:\n\n{original_answer}\n\nSummary:"
+    
+    # Extract the summary (removing extra text if needed)
+    summarized_answer = summary_output[0]['generated_text'].split("Summary:")[-1].strip()
     
     # Generate summary using Vicuna model
     summary_output = summarizer(prompt, max_length=700, num_return_sequences=1, temperature=0.7)

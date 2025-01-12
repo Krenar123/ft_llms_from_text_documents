@@ -16,7 +16,7 @@ def summarize_answer(text):
     prompt = f"Summarize the following text in a concise manner:\n\n{text}\n\nSummary:"
     
     # Generate summary using Vicuna
-    summary_output = summarizer(prompt, max_length=300, num_return_sequences=1, temperature=0.4)
+    summary_output = summarizer(prompt, max_length=700, num_return_sequences=1, temperature=0.7)
     
     # Extract the summary (removing extra text if needed)
     summarized_answer = summary_output[0]['generated_text'].split("Summary:")[-1].strip()
