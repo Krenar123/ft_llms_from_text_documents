@@ -19,8 +19,8 @@ model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto", torc
 # Load your dataset into a Hugging Face Dataset object
 qa_dataset = Dataset.from_list(data)
 
-# Create a summarization pipeline using Vicuna
-summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer, device=0)
+# Create a text generation pipeline using Vicuna
+summarizer = pipeline("text-generation", model=model, tokenizer=tokenizer)
 
 # Function to summarize each answer in the dataset
 def summarize_answer(example):
