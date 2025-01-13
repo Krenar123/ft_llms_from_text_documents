@@ -26,6 +26,17 @@ model = get_peft_model(model, lora_config)
 # Load dataset
 dataset = datasets.load_dataset("json", data_files={"train": "formatted_qa_pairs_after_summarize.jsonl"}, split="train")
 
+# Print the columns to check the available fields
+print(dataset.column_names)
+
+# Define a tokenization function for the dataset
+def tokenize_function(examples):
+    # Assuming 'instruction' is the input and 'output' is the target response
+    return tokenizer(examples['instruction'], examples['output'], truncation=True, padding="max_length", max_length=1024)
+
+# Apply tokenization
+dataset = dataset.map(tokenize_function, batched=True)
+
 # Define training hyperparameters
 training_args = TrainingArguments(
     output_dir="./mistral-finetuned",
@@ -48,13 +59,11 @@ training_args = TrainingArguments(
     hub_model_id="krenard/mistral-automated-qapairs-finetuned-instructions",
 )
 
-# Fine-tune the model
+# Fine-tune the model without passing dataset_text_field and dataset_target_field arguments
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
     args=training_args,
-    dataset_text_field="instruction",  # Use 'instruction' as the input field
-    dataset_target_field="output"  # Use 'output' as the target field
 )
 
 trainer.train()
