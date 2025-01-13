@@ -44,7 +44,7 @@ dataset = Dataset.from_list(qa_data_converted)
 # Tokenization function
 def tokenize_data(sample):
     inputs = tokenizer(sample["prompt"], truncation=True, padding="max_length", max_length=1024)
-    labels = tokenizer(sample["response"], truncation=True, padding="max_length", max_length=2048)
+    labels = tokenizer(sample["response"], truncation=True, padding="max_length", max_length=1024)
 
     inputs["labels"] = labels["input_ids"]
     return inputs
