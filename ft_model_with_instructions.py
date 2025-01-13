@@ -13,6 +13,9 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token  # Set pad token to eos token
+
 # Apply QLoRA (Low-Rank Adapters)
 lora_config = LoraConfig(
     r=16,  # Low-rank adaptation
