@@ -52,7 +52,9 @@ training_args = TrainingArguments(
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
-    args=training_args  # Removed `packing` argument
+    args=training_args,
+    dataset_text_field="instruction",  # Use 'instruction' as the input field
+    dataset_target_field="output"  # Use 'output' as the target field
 )
 
 trainer.train()
