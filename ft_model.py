@@ -30,7 +30,7 @@ def convert_to_prompt_input_output(data):
         answer = item["answer"]
         summary = item.get("summarize", "")
 
-        prompt = f"Question: {question}\nAnswer:"
+        prompt = f"Question: {question}"
         full_answer = f"{answer}\nSummary: {summary}" if summary else answer
 
         formatted_data.append({"prompt": prompt, "response": full_answer})
@@ -44,7 +44,7 @@ dataset = Dataset.from_list(qa_data_converted)
 # Tokenization function
 def tokenize_data(sample):
     inputs = tokenizer(sample["prompt"], truncation=True, padding="max_length", max_length=1024)
-    labels = tokenizer(sample["response"], truncation=True, padding="max_length", max_length=1024)
+    labels = tokenizer(sample["response"], truncation=True, padding="max_length", max_length=2048)
 
     inputs["labels"] = labels["input_ids"]
     return inputs
@@ -53,9 +53,9 @@ dataset = dataset.map(tokenize_data)
 
 # LoRA Fine-tuning Configuration
 lora_config = LoraConfig(
-    r=32,  # Increased from 16 to 32
-    lora_alpha=64,  # Increased from 32 to 64
-    lora_dropout=0.1,  # Increased dropout for stability
+    r=16,  # Increased from 16 to 32
+    lora_alpha=32,  # Increased from 32 to 64
+    lora_dropout=0.5,  # Increased dropout for stability
     target_modules=["q_proj", "v_proj"],
     bias="none"
 )
@@ -79,6 +79,7 @@ training_args = TrainingArguments(
     max_grad_norm=1.0,  # 🔥 **CRITICAL FIX: Clipping prevents gradient explosion**
     weight_decay=0.01,
     fp16=True, #bf16=True if torch.cuda.is_bf16_supported() else False,
+    optim="adamw_bnb_8bit",  # Optimized for QLoRA
     push_to_hub=True,  
     hub_model_id="krenard/mistral-automated-qapairs-finetuned",
 )
