@@ -66,7 +66,7 @@ model = get_peft_model(model, lora_config)
 # Training arguments
 training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
-    per_device_train_batch_size=2,  # Reduce batch size to avoid memory overflow
+    per_device_train_batch_size=1,  # Reduce batch size to avoid memory overflow
     gradient_accumulation_steps=32,  # More steps to smooth updates
     evaluation_strategy="no",
     save_steps=500,
