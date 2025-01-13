@@ -66,20 +66,20 @@ model = get_peft_model(model, lora_config)
 # Training arguments
 training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
-    per_device_train_batch_size=1,  # Small batch size to fit VRAM
-    gradient_accumulation_steps=32,  # Better stability
+    per_device_train_batch_size=2,  # Reduce batch size to avoid memory overflow
+    gradient_accumulation_steps=32,  # More steps to smooth updates
     evaluation_strategy="no",
     save_steps=500,
     logging_steps=50,
-    save_total_limit=2,
-    num_train_epochs=3,
-    learning_rate=1e-6,  # Lower LR
-    lr_scheduler_type="cosine",  # Better LR decay
-    warmup_ratio=0.1,  # 10% warmup
+    save_total_limit=3,
+    num_train_epochs=5,  # Increase epochs to allow proper convergence
+    learning_rate=5e-6,  # Reduce LR further for stability
+    lr_scheduler_type="cosine",
+    warmup_ratio=0.1,  # Stabilizes early training
+    max_grad_norm=1.0,  # 🔥 **CRITICAL FIX: Clipping prevents gradient explosion**
     weight_decay=0.01,
-    max_grad_norm=1.0,  # Clip gradients
-    fp16=True,
-    push_to_hub=True,
+    bf16=True if torch.cuda.is_bf16_supported() else False,
+    push_to_hub=True,  
     hub_model_id="krenard/mistral-automated-qapairs-finetuned",
 )
 
