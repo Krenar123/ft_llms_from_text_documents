@@ -29,7 +29,7 @@ dataset = datasets.load_dataset("json", data_files={"train": "formatted_qa_pairs
 # Define training hyperparameters
 training_args = TrainingArguments(
     output_dir="./mistral-finetuned",
-    per_device_train_batch_size=4,
+    per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
     num_train_epochs=5,  # More epochs to improve learning
     save_strategy="epoch",
