@@ -25,7 +25,7 @@ def generate_response(model, tokenizer, prompt):
         conversation=messages, tokenize=True, add_generation_prompt=True, return_tensors="pt"
     ).to("cuda")
     
-    output_ids = model.generate(input_ids, max_length=300)
+    output_ids = model.generate(input_ids, max_length=1000)
     return tokenizer.decode(output_ids[0][input_ids.shape[1]:], skip_special_tokens=True)
 
 def compute_perplexity(model, tokenizer, text):
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     # krenard/mistral-automated-qapairs-finetuned
     test_data = [
         {"question": "What are the standards of student behavior?", "expected_answer": "(1) Students are members of society and the academic community with attendant rights and responsibilities.  (2) Students are expected to comply with the general law, University policies and campus regulations.  (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined. "},
-        {"question": "What happens if a student breaks the rules?", "expected_answer": "Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations.  Students who fail to conduct themselves in such a manner may be disciplined."},
+        {"question": "What are the general expectations for student behavior at SEEU?", "expected_answer": "SEEU students are expected to adhere to the law, university policies, and campus regulations. They are also expected to conduct themselves in a manner that aligns with the university's values and standards. This includes maintaining academic integrity and respecting the rights and well-being of others within the university community.\n\nSummary: SEEU students are expected to follow the law, university policies, and campus regulations, as well as uphold academic integrity and respect the rights and well-being of others in the university community."},
     ]
     
     evaluate_models(base_model_name, fine_tuned_adapter_path, test_data)
