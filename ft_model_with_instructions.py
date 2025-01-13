@@ -1,8 +1,8 @@
-import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, TrainingArguments
 from peft import LoraConfig, get_peft_model
 from trl import SFTTrainer
 import datasets
+import torch
 
 # Load Mistral-7B model and tokenizer
 model_name = "mistralai/Mistral-7B-Instruct-v0.3"
@@ -52,7 +52,6 @@ training_args = TrainingArguments(
 trainer = SFTTrainer(
     model=model,
     train_dataset=dataset,
-    dataset_text_field="instruction",
     args=training_args,
     packing=False
 )
