@@ -48,7 +48,6 @@ training_args = TrainingArguments(
     num_train_epochs=5,  # More epochs to improve learning
     save_strategy="epoch",
     save_total_limit=2,
-    evaluation_strategy="epoch",
     learning_rate=1e-4,  # Lower LR to avoid overfitting
     weight_decay=0.01,
     lr_scheduler_type="cosine",
