@@ -66,17 +66,20 @@ model = get_peft_model(model, lora_config)
 # Training arguments
 training_args = TrainingArguments(
     output_dir="./mistral_finetuned",
-    per_device_train_batch_size=1,  # Increased batch size if memory allows
-    gradient_accumulation_steps=16,  # Adjusted for better optimization
+    per_device_train_batch_size=1,  # Small batch size to fit VRAM
+    gradient_accumulation_steps=32,  # Better stability
     evaluation_strategy="no",
-    save_steps=500,  # Save checkpoints every 500 steps instead of per epoch
+    save_steps=500,
     logging_steps=50,
-    save_total_limit=3,  # Keep more checkpoints for rollback
+    save_total_limit=2,
     num_train_epochs=3,
-    learning_rate=2e-5,  # Reduced LR for stability
+    learning_rate=1e-6,  # Lower LR
+    lr_scheduler_type="cosine",  # Better LR decay
+    warmup_ratio=0.1,  # 10% warmup
     weight_decay=0.01,
-    bf16=True if torch.cuda.is_bf16_supported() else False,  # Prefer bf16 if available
-    push_to_hub=True,  
+    max_grad_norm=1.0,  # Clip gradients
+    fp16=True,
+    push_to_hub=True,
     hub_model_id="krenard/mistral-automated-qapairs-finetuned",
 )
 
