@@ -1,15 +1,11 @@
-import torch
-from transformers import pipeline
+from transformers import AutoTokenizer, LlamaForCausalLM
 
-model_id = "krenard/llama3-2-automated-qapairs-finetuned-instructions"
+model = LlamaForCausalLM.from_pretrained("krenard/llama3-2-automated-qapairs-finetuned-instructions")
+tokenizer = AutoTokenizer.from_pretrained("krenard/llama3-2-automated-qapairs-finetuned-instructions")
 
-pipe = pipeline(
-    "text-generation", 
-    model=model_id, 
-    torch_dtype=torch.bfloat16, 
-    device_map="auto"
-)
+prompt = "How does SEEU address non-academic misconduct, such as theft or vandalism?"
+inputs = tokenizer(prompt, return_tensors="pt")
 
-a = pipe("How does SEEU address non-academic misconduct, such as theft or vandalism?")
-
-print(a)
+# Generate
+generate_ids = model.generate(inputs.input_ids, max_length=30)
+tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]

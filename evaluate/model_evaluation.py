@@ -85,8 +85,8 @@ def evaluate_models(base_model_name, fine_tuned_adapter_path, test_data):
         print("-" * 80)
 
 if __name__ == "__main__":
-    base_model_name = "meta-llama/Llama-3.2-1B"  # Base model
-    fine_tuned_adapter_path = "krenard/llama3-2-automated-qapairs-finetuned-instructions"  # LoRA adapter path
+    base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
+    fine_tuned_adapter_path = "krenard/mistral-automated-qapairs-finetuned"  # LoRA adapter path
     # krenard/mistral-automated-qapairs-finetuned
     test_data = [
         {"question": "What are the standards of behavior expected of students at SEEU?", "expected_answer": "SEEU students are expected to:\n\nUphold honesty and academic integrity.\n\nComply with university policies, campus regulations, and the law.\n\nConduct themselves in a manner compatible with the university's values and standards.\n\nSummary: SEEU students are expected to uphold honesty and academic integrity, comply with university policies and regulations, and conduct themselves in a manner compatible with the university's values and standards."},
