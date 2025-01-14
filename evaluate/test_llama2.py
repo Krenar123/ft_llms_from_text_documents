@@ -11,6 +11,6 @@ pipe = pipeline(
 )
 
 # Specify the max_length parameter
-output = pipe("The key to life is", max_length=500)  # Adjust max_length as needed
+output = pipe("SEEU STUDENT QUESTION: How does SEEU address non-academic misconduct, such as theft or vandalism?\nSEEU ADMINISTRATION ANSWER:", max_length=500)  # Adjust max_length as needed
 
 print(output)
