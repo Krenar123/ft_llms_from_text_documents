@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, LlamaForCausalLM
 
 model = LlamaForCausalLM.from_pretrained("krenard/llama3-2-automated-qapairs-finetuned")
-tokenizer = AutoTokenizer.from_pretrained("krenard/llama3-2-automated-qapairs-finetuned")
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 
 prompt = "SEEU STUDENT QUESTION: How does SEEU address non-academic misconduct, such as theft or vandalism?\nSEEU ADMINISTRATION ANSWER:"
 inputs = tokenizer(prompt, return_tensors="pt")
