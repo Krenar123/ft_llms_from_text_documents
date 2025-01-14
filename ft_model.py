@@ -6,7 +6,7 @@ from peft import LoraConfig, get_peft_model
 from huggingface_hub import login
 
 # Load the Mistral model and tokenizer
-MODEL_NAME = "meta-llama/Llama-3.2-1B"
+MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME, 
@@ -81,7 +81,7 @@ training_args = TrainingArguments(
     fp16=True, #bf16=True if torch.cuda.is_bf16_supported() else False,
     optim="adamw_bnb_8bit",  # Optimized for QLoRA
     push_to_hub=True,  
-    hub_model_id="krenard/llama3-2-automated-qapairs-finetuned-duplicates",
+    hub_model_id="krenard/mistral7b-automated-qapairs-finetuned-duplicates",
 )
 
 trainer = Trainer(
