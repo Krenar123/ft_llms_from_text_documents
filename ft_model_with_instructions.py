@@ -5,7 +5,7 @@ import datasets
 import torch
 
 # Load Mistral-7B model and tokenizer
-model_name = "mistralai/Mistral-7B-Instruct-v0.3"
+model_name = "meta-llama/Llama-3.2-1B"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
@@ -42,7 +42,7 @@ dataset = dataset.map(tokenize_function, batched=True)
 
 # Define training hyperparameters
 training_args = TrainingArguments(
-    output_dir="./mistral-finetuned",
+    output_dir="./llama3-2-finetuned",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
     num_train_epochs=5,  # More epochs to improve learning
@@ -58,7 +58,7 @@ training_args = TrainingArguments(
     logging_dir="./logs",
     report_to="none",
     push_to_hub=True,  
-    hub_model_id="krenard/mistral-automated-qapairs-finetuned-instructions",
+    hub_model_id="krenard/llama3-2-automated-qapairs-finetuned-instructions",
 )
 
 # Fine-tune the model without passing dataset_text_field and dataset_target_field arguments
@@ -71,6 +71,6 @@ trainer = SFTTrainer(
 trainer.train()
 
 # Save fine-tuned model
-trainer.save_model("./mistral-finetuned")
-tokenizer.save_pretrained("./mistral-finetuned")
+trainer.save_model("./llama3-2-finetuned")
+tokenizer.save_pretrained("./llama3-2-finetuned")
 trainer.push_to_hub()
