@@ -10,4 +10,6 @@ pipe = pipeline(
     device_map="auto"
 )
 
-pipe("How does SEEU address non-academic misconduct, such as theft or vandalism?")
+a = pipe("How does SEEU address non-academic misconduct, such as theft or vandalism?")
+
+print(a)
