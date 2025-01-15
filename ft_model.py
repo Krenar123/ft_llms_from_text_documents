@@ -19,7 +19,7 @@ if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
 # Load the dataset
-with open("formatted_qa_pairs_after_summarize_duplicates.jsonl", "r", encoding="utf-8") as file:
+with open("qa_pairs_after_summarize_duplicates.json", "r", encoding="utf-8") as file:
     qa_data = json.load(file)
 
 # Convert dataset into formatted prompt-response pairs
@@ -80,7 +80,7 @@ training_args = TrainingArguments(
     fp16=True, #bf16=True if torch.cuda.is_bf16_supported() else False,
     optim="adamw_bnb_8bit",  # Optimized for QLoRA
     push_to_hub=True,  
-    hub_model_id="krenard/mistral7b-automated-qapairs-finetuned-instructions-duplicates",
+    hub_model_id="krenard/mistral7b-automated-qapairs-finetuned-duplicates",
 )
 
 trainer = Trainer(
