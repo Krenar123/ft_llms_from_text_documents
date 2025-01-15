@@ -26,11 +26,12 @@ with open("qa_pairs_after_summarize_duplicates.json", "r", encoding="utf-8") as 
 def convert_to_prompt_input_output(data):
     formatted_data = []
     for item in data:
-        question = item["instruction"]
-        answer = item["output"]
+        question = item["question"]
+        answer = item["answer"]
+        summary = item.get("summarize", "")
 
         prompt = f"SEEU STUDENT QUESTION: {question}\n"
-        full_answer = f"SEEU ADMINISTRATION ANSWER: {answer}"
+        full_answer = f"SEEU ADMINISTRATION ANSWER: {answer} \nSummary: {summary}" if summary else answer
 
         formatted_data.append({"prompt": prompt, "response": full_answer})
     return formatted_data
@@ -80,7 +81,7 @@ training_args = TrainingArguments(
     fp16=True, #bf16=True if torch.cuda.is_bf16_supported() else False,
     optim="adamw_bnb_8bit",  # Optimized for QLoRA
     push_to_hub=True,  
-    hub_model_id="krenard/mistral7b-automated-qapairs-finetuned-duplicates",
+    hub_model_id="krenard/mistral7b-automated-qapairs-finetuned-duplicates"
 )
 
 trainer = Trainer(
