@@ -5,7 +5,9 @@ import datasets
 import torch
 
 # Load Mistral-7B model and tokenizer
-model_name = "meta-llama/Llama-3.2-1B"
+# mistralai/Mistral-7B-Instruct-v0.3
+# meta-llama/Llama-3.2-1B
+model_name = "mistralai/Mistral-7B-Instruct-v0.3"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
