@@ -30,7 +30,7 @@ def convert_to_prompt_input_output(data):
         answer = item["answer"]
         summary = item.get("summarize", "")
 
-        prompt = f"SEEU STUDENT QUESTION: {question}\nSEEU ADMINISTRATION ANSWER: "
+        prompt = f"SEEU STUDENT QUESTION: {question}\nSEEU ADMINISTRATION ANSWER:"
         full_answer = f"{answer} \nSummary: {summary}" if summary else answer
 
         formatted_data.append({"prompt": prompt, "response": full_answer})
