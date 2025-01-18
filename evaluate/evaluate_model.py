@@ -93,7 +93,7 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
 
 if __name__ == "__main__":
     base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
-    fine_tuned_model_name = "krenard/mistral-automated-qapairs-finetuned-instructions"  # Fine-tuned full model
+    fine_tuned_model_name = "krenard/mistral7b-automated-qualitative-qapairs-finetuned-instructions"  # Fine-tuned full model
     # krenard/mistral-automated-qapairs-finetuned
     test_data = [
         {
