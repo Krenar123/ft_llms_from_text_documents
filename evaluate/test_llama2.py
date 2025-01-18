@@ -1,7 +1,7 @@
 import torch
 from transformers import pipeline
 
-model_id = "krenard/llama3-2-automated-qapairs-finetuned-duplicates"
+model_id = "krenard/llama3-2-automated-qapairs-finetuned-instructions"
 # krenard/llama3-2-automated-qapairs-finetuned
 pipe = pipeline(
     "text-generation", 
