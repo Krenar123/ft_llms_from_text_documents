@@ -29,7 +29,7 @@ lora_config = LoraConfig(
 model = get_peft_model(model, lora_config)
 
 # Load dataset
-dataset = datasets.load_dataset("json", data_files={"train": "formatted_qa_pairs_after_summarize.jsonl"}, split="train")
+dataset = datasets.load_dataset("json", data_files={"train": "instructions_formatted_qa_pairs_with_summary_only_qa.jsonl"}, split="train")
 
 # Print the columns to check the available fields
 print(dataset.column_names)
@@ -44,7 +44,7 @@ dataset = dataset.map(tokenize_function, batched=True)
 
 # Define training hyperparameters
 training_args = TrainingArguments(
-    output_dir="./llama3-2-finetuned",
+    output_dir="./mistral7b-finetuned",
     per_device_train_batch_size=2,
     gradient_accumulation_steps=8,
     num_train_epochs=5,  # More epochs to improve learning
@@ -60,7 +60,7 @@ training_args = TrainingArguments(
     logging_dir="./logs",
     report_to="none",
     push_to_hub=True,  
-    hub_model_id="krenard/llama3-2-automated-qapairs-finetuned-instructions",
+    hub_model_id="krenard/mistral7b-automated-qualitative-qapairs-finetuned-instructions",
 )
 
 # Fine-tune the model without passing dataset_text_field and dataset_target_field arguments
@@ -73,6 +73,6 @@ trainer = SFTTrainer(
 trainer.train()
 
 # Save fine-tuned model
-trainer.save_model("./llama3-2-finetuned")
-tokenizer.save_pretrained("./llama3-2-finetuned")
+trainer.save_model("./mistral7b-finetuned")
+tokenizer.save_pretrained("./mistral7b-finetuned")
 trainer.push_to_hub()
