@@ -5,7 +5,7 @@ from rouge_score import rouge_scorer
 
 def load_model(model_name):
     """Loads a model and tokenizer."""
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.3")
     model = AutoModelForCausalLM.from_pretrained(
         model_name, device_map="auto", torch_dtype=torch.float16
     )
