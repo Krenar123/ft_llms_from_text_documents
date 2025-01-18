@@ -11,6 +11,6 @@ pipe = pipeline(
 )
 
 # Specify the max_length parameter
-output = pipe("SEEU STUDENT QUESTION: Are there any consequences for students who violate these policies and regulations?", max_length=500)  # Adjust max_length as needed
+output = pipe("Are there any consequences for students who violate these policies and regulations?", max_length=500)  # Adjust max_length as needed
 
 print(output)
