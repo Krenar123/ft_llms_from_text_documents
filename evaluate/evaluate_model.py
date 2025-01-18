@@ -104,6 +104,14 @@ if __name__ == "__main__":
             "question": "SEEU student question: What happens if a student breaks the rules?",
             "expected_answer": "Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations. Students who fail to conduct themselves in such a manner may be disciplined."
         },
+        {
+            "question": "SEEU student question: What is the role of the ad-hoc member appointed by the Dean?",
+            "expected_answer": "The ad-hoc member appointed by the Dean is a temporary member of the Commission who is appointed to fill a vacancy or to provide specific expertise or perspectives to the Commission. The Dean's appointment is made from the Deans Office and is intended to provide additional expertise or perspectives to the Commission. The ad-hoc member appointed by the Student Parliament and Association is also a temporary member of the Commission who is appointed to represent the interests of students.\n\nThe Commission is composed of three members: Director of Student Services (ex  officio), One additional member from the Managerial Executive Team, One other member from the academic staff. The relevant Dean appoints one ad-hoc member from the Deans Office. One ad-hoc member is appointed by Student Parliament and Association."
+        },
+        {
+            "question": "SEEU student question: Who will be involved in the decision-making process and how long will it take?",
+            "expected_answer": "The Head, another Security Operator, and/or the Manager of dormitories/housing facilities will be involved in the decision-making process. The decision will be made within one week after the evidence is collected.\n\nThe Head, with another Security Operator and/or the Manager of dormitories/housing facilities meet to analyse the evidence and make a decision within one week after the evidence is collected."
+        },
     ]
     
     evaluate_models(base_model_name, fine_tuned_model_name, test_data)
