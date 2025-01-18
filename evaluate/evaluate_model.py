@@ -97,11 +97,11 @@ if __name__ == "__main__":
     # krenard/mistral-automated-qapairs-finetuned
     test_data = [
         {
-            "question": "What are the standards of student behavior?",
+            "question": "SEEU student question: What are the standards of student behavior?",
             "expected_answer": "(1) Students are members of society and the academic community with attendant rights and responsibilities. (2) Students are expected to comply with the general law, University policies and campus regulations. (3) Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations. Students who fail to conduct themselves in such a manner may be disciplined."
         },
         {
-            "question": "What happens if a student breaks the rules?",
+            "question": "SEEU student question: What happens if a student breaks the rules?",
             "expected_answer": "Students on University property or attending any official University function assume an obligation to conduct themselves in a manner compatible with University policies and campus rules and regulations. Students who fail to conduct themselves in such a manner may be disciplined."
         },
     ]
