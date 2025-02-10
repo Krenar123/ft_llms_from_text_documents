@@ -34,3 +34,5 @@ III. Principles of Academic Integrity
 summary = summarize_answer(text_to_summarize)
 
 print(summary)
+
+# go through rule o student and use vicuna to generate qa pairs 
