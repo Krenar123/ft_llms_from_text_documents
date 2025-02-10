@@ -35,10 +35,16 @@ def compute_perplexity(model, tokenizer, text):
 
 def compute_f1(prediction, reference, tokenizer):
     """Computes F1 score for tokenized text."""
-    pred_tokens = tokenizer.tokenize(prediction)
-    ref_tokens = tokenizer.tokenize(reference)
-    f1_metric = evaluate.load("f1")  # Using evaluate for F1
-    return f1_metric.compute(predictions=[pred_tokens], references=[ref_tokens])["f1"]
+    # Convert text into token IDs
+    pred_ids = tokenizer.encode(prediction, add_special_tokens=False)
+    ref_ids = tokenizer.encode(reference, add_special_tokens=False)
+
+    # Load F1 metric
+    f1_metric = evaluate.load("f1")
+
+    # Compute F1 score
+    return f1_metric.compute(predictions=[pred_ids], references=[ref_ids])["f1"]
+
 
 
 def compute_bleu(prediction, reference):
@@ -79,6 +85,7 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
 
         base_f1 = compute_f1(base_response, expected, base_tokenizer)
         fine_tuned_f1 = compute_f1(fine_tuned_response, expected, fine_tuned_tokenizer)
+
 
 
         base_bleu = compute_bleu(base_response, expected)
