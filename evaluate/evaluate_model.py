@@ -21,7 +21,7 @@ def generate_response(model, tokenizer, prompt):
         conversation=messages, tokenize=True, add_generation_prompt=True, return_tensors="pt"
     ).to("cuda")
 
-    output_ids = model.generate(input_ids, max_length=300)
+    output_ids = model.generate(input_ids, max_length=1000)
     return tokenizer.decode(output_ids[0][input_ids.shape[1]:], skip_special_tokens=True)
 
 
@@ -120,8 +120,8 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
 
 
 if __name__ == "__main__":
-    base_model_name = "meta-llama/Llama-3.2-1B"  # Base model
-    fine_tuned_model_name = "krenard/llama3-2-automated-qualitative-qapairs-finetuned-instructions"  # Fine-tuned full model
+    base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
+    fine_tuned_model_name = "krenard/mistral7b-automated-qualitative-qapairs-finetuned-instructions"  # Fine-tuned full model
     test_data = [
         {
             "question": "SEEU student question: What are the standards of student behavior?",

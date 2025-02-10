@@ -29,7 +29,7 @@ def generate_response(model, tokenizer, prompt):
 
     # Tokenize input and generate response
     input_ids = tokenizer(formatted_prompt, return_tensors="pt").input_ids.to("cuda")
-    output_ids = model.generate(input_ids, max_length=300)
+    output_ids = model.generate(input_ids, max_length=1000)
     return tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
 def compute_perplexity(model, tokenizer, text):
