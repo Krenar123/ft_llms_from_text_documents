@@ -83,8 +83,8 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
         base_ppl = compute_perplexity(base_model, base_tokenizer, question)
         fine_tuned_ppl = compute_perplexity(fine_tuned_model, fine_tuned_tokenizer, question)
 
-        base_f1 = compute_f1(base_response, expected, base_tokenizer)
-        fine_tuned_f1 = compute_f1(fine_tuned_response, expected, fine_tuned_tokenizer)
+        #base_f1 = compute_f1(base_response, expected, base_tokenizer)
+        #fine_tuned_f1 = compute_f1(fine_tuned_response, expected, fine_tuned_tokenizer)
 
 
 
