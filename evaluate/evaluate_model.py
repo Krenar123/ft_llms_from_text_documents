@@ -33,10 +33,12 @@ def compute_perplexity(model, tokenizer, text):
     return torch.exp(loss).item()
 
 
-def compute_f1(prediction, reference):
-    """Computes F1 score for generated text."""
+def compute_f1(prediction, reference, tokenizer):
+    """Computes F1 score for tokenized text."""
+    pred_tokens = tokenizer.tokenize(prediction)
+    ref_tokens = tokenizer.tokenize(reference)
     f1_metric = evaluate.load("f1")  # Using evaluate for F1
-    return f1_metric.compute(predictions=[prediction], references=[reference])["f1"]
+    return f1_metric.compute(predictions=[pred_tokens], references=[ref_tokens])["f1"]
 
 
 def compute_bleu(prediction, reference):
@@ -75,9 +77,9 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
         base_ppl = compute_perplexity(base_model, base_tokenizer, question)
         fine_tuned_ppl = compute_perplexity(fine_tuned_model, fine_tuned_tokenizer, question)
 
-        # Compute evaluation metrics
-        base_f1 = compute_f1(base_response, expected)
-        fine_tuned_f1 = compute_f1(fine_tuned_response, expected)
+        base_f1 = compute_f1(base_response, expected, base_tokenizer)
+        fine_tuned_f1 = compute_f1(fine_tuned_response, expected, fine_tuned_tokenizer)
+
 
         base_bleu = compute_bleu(base_response, expected)
         fine_tuned_bleu = compute_bleu(fine_tuned_response, expected)
