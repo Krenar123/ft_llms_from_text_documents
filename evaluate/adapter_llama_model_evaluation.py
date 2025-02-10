@@ -18,15 +18,26 @@ def load_model(model_name, adapter_path=None):
     model.eval()
     return model, tokenizer
 
+def format_chat_template(messages):
+    """Formats messages into a string for chat-based models."""
+    formatted_input = ""
+    for message in messages:
+        if message["role"] == "user":
+            formatted_input += f"User: {message['content']}\n"
+        elif message["role"] == "assistant":
+            formatted_input += f"Assistant: {message['content']}\n"
+    return formatted_input.strip()
+
 def generate_response(model, tokenizer, prompt):
     """Generates a response using the model."""
+    # If chat-like input is required, format it
     messages = [{"role": "user", "content": prompt}]
-    input_ids = tokenizer.apply_chat_template(
-        conversation=messages, tokenize=True, add_generation_prompt=True, return_tensors="pt"
-    ).to("cuda")
-    
+    formatted_prompt = format_chat_template(messages)
+
+    # Tokenize input and generate response
+    input_ids = tokenizer(formatted_prompt, return_tensors="pt").input_ids.to("cuda")
     output_ids = model.generate(input_ids, max_length=1000)
-    return tokenizer.decode(output_ids[0][input_ids.shape[1]:], skip_special_tokens=True)
+    return tokenizer.decode(output_ids[0], skip_special_tokens=True)
 
 def compute_perplexity(model, tokenizer, text):
     """Computes perplexity of the model on a given text."""
