@@ -120,7 +120,7 @@ def evaluate_models(base_model_name, fine_tuned_model_name, test_data):
 
 
 if __name__ == "__main__":
-    base_model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Base model
+    base_model_name = "meta-llama/Llama-3.2-1B"  # Base model
     fine_tuned_model_name = "krenard/llama3-2-automated-qualitative-qapairs-finetuned-instructions"  # Fine-tuned full model
     test_data = [
         {
